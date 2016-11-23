@@ -6,10 +6,11 @@ import numpy as np
 
 from keras.models import Sequential
 from keras.layers import Conv2D, Flatten, Dense, Activation, MaxPooling2D
+from keras.layers import Dropout
 from keras import backend as K
 
 data_type = {"Filename": str, "Genres": str, "Release Year": int}
-albums = pd.read_csv("albumlabel.csv", dtype=data_type)
+albums = pd.read_csv("albumlabel.csv", dtype=data_type, parse_dates=["Release Year"])
 
 token = Tokenizer()
 token.fit_on_texts(albums.Genres)
@@ -51,7 +52,7 @@ model.add(MaxPooling2D((2, 2)))
 #model.add(Activation('relu'))
 #model.add(MaxPooling2D((2, 2)))
 #model.add(Conv2D(80, 2, 2, border_mode='valid'))
-#model.add(Dropout(0.25))
+model.add(Dropout(0.25))
 
 model.add(Flatten())
 model.add(Dense(128))
@@ -67,7 +68,7 @@ model.compile(loss='categorical_crossentropy',
               optimizer='adam',
               metrics=['accuracy'])
 
-model.fit(X[:30], train_y[:30],
+model.fit(X[15:], train_y[15:],
           batch_size=5,
           nb_epoch=50)
 
@@ -80,3 +81,14 @@ def greater10percent(y):
                 tmp.append(i)
         p.append(tmp)
     return p
+
+pred = model.predict(X)
+p  = greater10percent(pred)
+p_ = greater10percent(train_y)
+
+idx_word = dict()
+for key in token.word_index.keys():
+    idx_word[token.word_index[key]] = key
+
+for i in xrange(41):
+    print(i, p[i], p_[i])

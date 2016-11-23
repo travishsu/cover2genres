@@ -1,42 +1,59 @@
 Filename,Genres,Release Year
-21stCenturyBreakdown_GreenDay,poppunk alternativerock punkrock powerpop,2009
-AmericanIdiot_GreenDay,poppunk alternativerock punkrock powerpop,2004
-MasterOfPuppets_Metalica,thrash speedmetal,1986
-SouthOfHeaven_Slayer,thrash,1988
-AppetiteForDestruction_GunsNRoses,hardrock heavymetal,1986
-BloodSugarSexMagik_RedHotChiliPeppers,alternativerock funkmetal,1991
-ImWithYou_RedHotChiliPeppers,alternativerock,2011
-ByTheWay_RedHotChiliPeppers,alternativerock funkmetal poprock,2002
-Californication_RedHotChiliPeppers,alternativerock funkmetal,1999
-ChineseDemocracy_GunsNRoses,hardrock,2008
-DivineIntervention_Slayer,thrash,1994
-Dookie_GreenDay,alternativerock poppunk punk,1994
-GhostStories_Coldplay,alternativerock,2014
-HellAwaits_Slayer,rock thrash,1985
-IAmSashaFierce_ Beyonce,hiphop funk soul pop rnb ballad,2008
-Inhibition_DotHacker,alternativerock experimental,2012
-KidA_Radiohead,alternativerock experimental idm,2000
-MonumentsToAnElegy_SmashingPumpkins,rock alternativerock,2014
-Mother'sMilk_RedHotChiliPeppers,rock alternativerock funkmetal,1989
-Nevermind_Nirvana,rock alternativerock grunge,1991
-OkComputer_Radiohead,rock alternativerock electronic,1997
-OneHotMinute_RedHotChiliPeppers,rock alternativerock funkmetal,1995
-Parachutes_Coldplay,rock alternativerock,2000
-ReignInBlood_Slayer,rock thrash,1986
-ShowNoMercy_Slayer,rock thrash,1987
-SiameseDream_SmashingPumpkins,rock alternativerock,1993
-StadiumArcadium_RedHotChiliPeppers,rock alternativerock,2006
-StElsewhere_GnarlsBarkley,hiphop funk soul,2006
-TheBlueprint3_JayZ,hiphop,2009
-TheDarkSideOfTheMoon_PinkFloyd,rock progrock,1973
-TheGetaway_RedHotChiliPeppers,rock funk soul rocknroll,2016
-TheRedHotChiliPeppers_RedHotChiliPeppers,hiphop rock funk soul alternativerock funcmetal,1984
-TheUpliftMofoPartyPlan_RedHotChiliPeppers,rock funkmetal alternativerock,1987
-UseYourIllusion1_GunsNRoses,rock poprock,1991
-Weezer_ Weezer,rock alternativerock indierock,1994
-YellowSubmarine_TheBeatles,rock poprock soundtrack stagenscreen psychedelicrock,1969
-Zeitgeist_SmashingPumpkins,rock alternativerock hardrock,2007
-Mutter_Rammstein,rock industrial hardrock heavymetal,2001
-Pelagial_TheOcean,rock progrock heavymetal experimental,2013
-MyHeadIsAnAnimal_OfMonstersAndMen,rock folk world country folk rock indierock,2011
-InUtero_Nirvana,rock grunge alternativerock,1993
+21stCenturyBreakdown_GreenDay,poppunk alternativerock punkrock powerpop,2009-05-15 00:00:00
+AmericanIdiot_GreenDay,poppunk alternativerock punkrock powerpop,2004-09-21 00:00:00
+MasterOfPuppets_Metalica,thrash speedmetal,1986-03-03 00:00:00
+SouthOfHeaven_Slayer,thrash,1988-01-01 00:00:00
+AppetiteForDestruction_GunsNRoses,hardrock heavymetal,1987-01-01 00:00:00
+BloodSugarSexMagik_RedHotChiliPeppers,alternativerock funkmetal,1991-09-24 00:00:00
+ImWithYou_RedHotChiliPeppers,alternativerock,2015-11-13 00:00:00
+ByTheWay_RedHotChiliPeppers,alternativerock funkmetal poprock,2002-07-09 00:00:00
+Californication_RedHotChiliPeppers,alternativerock funkmetal,1999-06-08 00:00:00
+ChineseDemocracy_GunsNRoses,hardrock,2008-01-01 00:00:00
+DivineIntervention_Slayer,thrash,1994-01-01 00:00:00
+Dookie_GreenDay,alternativerock poppunk punk,1994-02-01 00:00:00
+GhostStories_Coldplay,alternativerock,2014-05-19 00:00:00
+HellAwaits_Slayer,rock thrash,1985-01-01 00:00:00
+IAmSashaFierce_ Beyonce,hiphop funk soul pop rnb ballad,2008-11-14 00:00:00
+Inhibition_DotHacker,alternativerock experimental,2012-05-01 00:00:00
+KidA_Radiohead,alternativerock experimental idm,2000-10-01 00:00:00
+MonumentsToAnElegy_SmashingPumpkins,rock alternativerock,2014-12-09 00:00:00
+Mother'sMilk_RedHotChiliPeppers,rock alternativerock funkmetal,1989-08-16 00:00:00
+Nevermind_Nirvana,rock alternativerock grunge,1991-09-26 00:00:00
+OkComputer_Radiohead,rock alternativerock electronic,1997-05-28 00:00:00
+OneHotMinute_RedHotChiliPeppers,rock alternativerock funkmetal,1995-09-12 00:00:00
+Parachutes_Coldplay,rock alternativerock,2000-07-10 00:00:00
+ReignInBlood_Slayer,rock thrash,1986-01-01 00:00:00
+ShowNoMercy_Slayer,rock thrash,1983-01-01 00:00:00
+SiameseDream_SmashingPumpkins,rock alternativerock,1993-01-01 00:00:00
+StadiumArcadium_RedHotChiliPeppers,rock alternativerock,2006-05-09 00:00:00
+StElsewhere_GnarlsBarkley,hiphop funk soul,2006-05-02 00:00:00
+TheBlueprint3_JayZ,hiphop,2009-01-01 00:00:00
+TheDarkSideOfTheMoon_PinkFloyd,rock progrock,1973-03-01 00:00:00
+TheGetaway_RedHotChiliPeppers,rock funk soul rocknroll,2016-06-17 00:00:00
+TheRedHotChiliPeppers_RedHotChiliPeppers,hiphop rock funk soul alternativerock funcmetal,1984-01-01 00:00:00
+TheUpliftMofoPartyPlan_RedHotChiliPeppers,rock funkmetal alternativerock,1987-01-01 00:00:00
+UseYourIllusion1_GunsNRoses,rock poprock,1991-01-01 00:00:00
+Weezer_ Weezer,rock alternativerock indierock,1994-01-01 00:00:00
+YellowSubmarine_TheBeatles,rock poprock soundtrack stagenscreen psychedelicrock,1969-01-17 00:00:00
+Zeitgeist_SmashingPumpkins,rock alternativerock hardrock,2007-01-01 00:00:00
+Mutter_Rammstein,rock industrial hardrock heavymetal,2001-04-02 00:00:00
+Pelagial_TheOcean,rock progrock heavymetal experimental,2013-04-30 00:00:00
+MyHeadIsAnAnimal_OfMonstersAndMen,rock folk world country folk rock indierock,2012-01-01 00:00:00
+InUtero_Nirvana,rock grunge alternativerock,1993-09-21 00:00:00
+Sunbather_Deafheaven,atmosphericblackmetal avantgardemetal blackgaze chaotichardcore mathcore noisepop postrock postdoommetal postmetal usbm,2013-05-28 00:00:00
+IAmNotAHumanBeingII(Deluxe)_LilWayne,dwntrap hiphop popchristmas poprap rap trapmusic,2013-01-01 00:00:00
+Painkiller_JudasPriest,albumrock alternativemetal classicrock groovemetal hardrock metal progressivemetal rock speedmetal,1990-09-26 00:00:00
+LedZeppelinII_LedZeppelin,albumrock alternativerock britishblues classicrock hardrock mellowgold rock singersongwriter,1969-10-22 00:00:00
+BornAndRaised_JohnMayer,folkpop neomellow pop poprock singersongwriter,2012-05-18 00:00:00
+TheBlackParade_MyChemicalRomance,emo poppunk punkchristmas,2006-10-23 00:00:00
+Destroyer(RemasteredVersion)_KISS,albumrock classicrock glammetal glamrock hardrock metal rock,1976-03-15 00:00:00
+WhiteBloodCells_TheWhiteStripes,alternativerock bluesrock classicrock garagerock indierock permanentwave postgrunge punkblues rock,2001-07-03 00:00:00
+OracularSpectacular_MGMT,alternativedance alternativerock brooklynindie garagerock indiepop indierock indietronica neopsychedelic newrave rock synthpop,2007-12-14 00:00:00
+TheStoneRoses_TheStoneRoses,altindierock alternativerock britpop classicrock electronic garagerock indierock madchester newwave rock,1989-05-01 00:00:00
+BornUnderABadSign_AlbertKing,acousticblues blues bluesrock britishblues chicagoblues classicrock countryblues deltablues electricblues jazzblues jazzchristmas louisianablues memphisblues memphissoul modernblues neworleansblues pianoblues piedmontblues soul soulblues soulchristmas southernsoul swampblues texasblues traditionalblues,1967-01-01 00:00:00
+Vitalogy_PearlJam,alternativemetal alternativerock funkrock grunge hardrock numetal permanentwave poprock postgrunge rock,1994-11-22 00:00:00
+Voodoo_D'Angelo,classicfunkrock dancepop deepindierb funk funkrock hiphop indierb motown neosoul newjackswing quietstorm rb soul urbancontemporary,2000-01-25 00:00:00
+MaggotBrain_Funkadelic,classicfunkrock deepfunk funk funkrock jazzfunk jazzfusion memphissoul motown pfunk psychedelicrock quietstorm soul southernsoul,1971-07-12 00:00:00
+California_blink-182,heavychristmas poppunk punkchristmas,2016-07-01 00:00:00
+Buddha_blink-182,heavychristmas poppunk punkchristmas,1998-10-27 00:00:00
+FutureHearts_AllTimeLow,pixie pop popemo poppunk poprock postteenpop punkchristmas teenpop,2015-04-03
