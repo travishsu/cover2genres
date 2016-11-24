@@ -1,45 +1,22 @@
 Filename,Genres,Release Year
-21stCenturyBreakdown_GreenDay,poppunk alternativerock punkrock powerpop,2009-05-15 00:00:00
-AmericanIdiot_GreenDay,poppunk alternativerock punkrock powerpop,2004-09-21 00:00:00
-MasterOfPuppets_Metalica,thrash speedmetal,1986-03-03 00:00:00
-SouthOfHeaven_Slayer,thrash,1988-01-01 00:00:00
-AppetiteForDestruction_GunsNRoses,hardrock heavymetal,1987-01-01 00:00:00
-BloodSugarSexMagik_RedHotChiliPeppers,alternativerock funkmetal,1991-09-24 00:00:00
-ImWithYou_RedHotChiliPeppers,alternativerock,2015-11-13 00:00:00
-ByTheWay_RedHotChiliPeppers,alternativerock funkmetal poprock,2002-07-09 00:00:00
-Californication_RedHotChiliPeppers,alternativerock funkmetal,1999-06-08 00:00:00
-ChineseDemocracy_GunsNRoses,hardrock,2008-01-01 00:00:00
-DivineIntervention_Slayer,thrash,1994-01-01 00:00:00
-Dookie_GreenDay,alternativerock poppunk punk,1994-02-01 00:00:00
+ChineseDemocracy_GunsNRoses,albumrock alternativerock classicrock glammetal hardrock rock,2008-01-01 00:00:00
 GhostStories_Coldplay,alternativerock,2014-05-19 00:00:00
-HellAwaits_Slayer,rock thrash,1985-01-01 00:00:00
-IAmSashaFierce_ Beyonce,hiphop funk soul pop rnb ballad,2008-11-14 00:00:00
 Inhibition_DotHacker,alternativerock experimental,2012-05-01 00:00:00
-KidA_Radiohead,alternativerock experimental idm,2000-10-01 00:00:00
-MonumentsToAnElegy_SmashingPumpkins,rock alternativerock,2014-12-09 00:00:00
-Mother'sMilk_RedHotChiliPeppers,rock alternativerock funkmetal,1989-08-16 00:00:00
-Nevermind_Nirvana,rock alternativerock grunge,1991-09-26 00:00:00
 OkComputer_Radiohead,rock alternativerock electronic,1997-05-28 00:00:00
 OneHotMinute_RedHotChiliPeppers,rock alternativerock funkmetal,1995-09-12 00:00:00
 Parachutes_Coldplay,rock alternativerock,2000-07-10 00:00:00
 ReignInBlood_Slayer,rock thrash,1986-01-01 00:00:00
 ShowNoMercy_Slayer,rock thrash,1983-01-01 00:00:00
-SiameseDream_SmashingPumpkins,rock alternativerock,1993-01-01 00:00:00
+SiameseDream_SmashingPumpkins,alternativemetal alternativerock bluesrock classicrock funkrock garagerock indierock numetal permanentwave popchristmas poprock postgrunge rock,1993-01-01 00:00:00
 StadiumArcadium_RedHotChiliPeppers,rock alternativerock,2006-05-09 00:00:00
-StElsewhere_GnarlsBarkley,hiphop funk soul,2006-05-02 00:00:00
-TheBlueprint3_JayZ,hiphop,2009-01-01 00:00:00
 TheDarkSideOfTheMoon_PinkFloyd,rock progrock,1973-03-01 00:00:00
-TheGetaway_RedHotChiliPeppers,rock funk soul rocknroll,2016-06-17 00:00:00
 TheRedHotChiliPeppers_RedHotChiliPeppers,hiphop rock funk soul alternativerock funcmetal,1984-01-01 00:00:00
 TheUpliftMofoPartyPlan_RedHotChiliPeppers,rock funkmetal alternativerock,1987-01-01 00:00:00
-UseYourIllusion1_GunsNRoses,rock poprock,1991-01-01 00:00:00
+UseYourIllusion1_GunsNRoses,albumrock alternativerock classicrock glammetal hardrock rock,1991-01-01 00:00:00
 Weezer_ Weezer,rock alternativerock indierock,1994-01-01 00:00:00
-YellowSubmarine_TheBeatles,rock poprock soundtrack stagenscreen psychedelicrock,1969-01-17 00:00:00
-Zeitgeist_SmashingPumpkins,rock alternativerock hardrock,2007-01-01 00:00:00
-Mutter_Rammstein,rock industrial hardrock heavymetal,2001-04-02 00:00:00
+Zeitgeist_SmashingPumpkins,alternativemetal alternativerock bluesrock classicrock funkrock garagerock indierock numetal permanentwave popchristmas poprock postgrunge rock,2007-01-01 00:00:00
 Pelagial_TheOcean,rock progrock heavymetal experimental,2013-04-30 00:00:00
 MyHeadIsAnAnimal_OfMonstersAndMen,rock folk world country folk rock indierock,2012-01-01 00:00:00
-InUtero_Nirvana,rock grunge alternativerock,1993-09-21 00:00:00
 Sunbather_Deafheaven,atmosphericblackmetal avantgardemetal blackgaze chaotichardcore mathcore noisepop postrock postdoommetal postmetal usbm,2013-05-28 00:00:00
 IAmNotAHumanBeingII(Deluxe)_LilWayne,dwntrap hiphop popchristmas poprap rap trapmusic,2013-01-01 00:00:00
 Painkiller_JudasPriest,albumrock alternativemetal classicrock groovemetal hardrock metal progressivemetal rock speedmetal,1990-09-26 00:00:00
@@ -50,10 +27,111 @@ Destroyer(RemasteredVersion)_KISS,albumrock classicrock glammetal glamrock hardr
 WhiteBloodCells_TheWhiteStripes,alternativerock bluesrock classicrock garagerock indierock permanentwave postgrunge punkblues rock,2001-07-03 00:00:00
 OracularSpectacular_MGMT,alternativedance alternativerock brooklynindie garagerock indiepop indierock indietronica neopsychedelic newrave rock synthpop,2007-12-14 00:00:00
 TheStoneRoses_TheStoneRoses,altindierock alternativerock britpop classicrock electronic garagerock indierock madchester newwave rock,1989-05-01 00:00:00
-BornUnderABadSign_AlbertKing,acousticblues blues bluesrock britishblues chicagoblues classicrock countryblues deltablues electricblues jazzblues jazzchristmas louisianablues memphisblues memphissoul modernblues neworleansblues pianoblues piedmontblues soul soulblues soulchristmas southernsoul swampblues texasblues traditionalblues,1967-01-01 00:00:00
 Vitalogy_PearlJam,alternativemetal alternativerock funkrock grunge hardrock numetal permanentwave poprock postgrunge rock,1994-11-22 00:00:00
 Voodoo_D'Angelo,classicfunkrock dancepop deepindierb funk funkrock hiphop indierb motown neosoul newjackswing quietstorm rb soul urbancontemporary,2000-01-25 00:00:00
 MaggotBrain_Funkadelic,classicfunkrock deepfunk funk funkrock jazzfunk jazzfusion memphissoul motown pfunk psychedelicrock quietstorm soul southernsoul,1971-07-12 00:00:00
 California_blink-182,heavychristmas poppunk punkchristmas,2016-07-01 00:00:00
 Buddha_blink-182,heavychristmas poppunk punkchristmas,1998-10-27 00:00:00
-FutureHearts_AllTimeLow,pixie pop popemo poppunk poprock postteenpop punkchristmas teenpop,2015-04-03
+FutureHearts_AllTimeLow,pixie pop popemo poppunk poprock postteenpop punkchristmas teenpop,2015-04-03 00:00:00
+Yield_PearlJam,alternativemetal alternativerock funkrock grunge hardrock numetal permanentwave poprock postgrunge rock,1998-02-17 00:00:00
+Vs._PearlJam,alternativemetal alternativerock funkrock grunge hardrock numetal permanentwave poprock postgrunge rock,1993-10-19 00:00:00
+Ten_PearlJam,alternativemetal alternativerock funkrock grunge hardrock numetal permanentwave poprock postgrunge rock,1991-08-27 00:00:00
+Facelift_AliceInChains,alternativemetal alternativerock classicrock funkrock groovemetal grunge hardrock numetal poprock postgrunge rapmetal rock,1990-01-01 00:00:00
+ThankYou_StoneTemplePilots,albumrock alternativemetal alternativerock bluesrock classicrock funkrock garagerock grunge hardrock numetal poprock postgrunge rapmetal rock,2003-11-10 00:00:00
+Paranoid(RemasteredEdition)_BlackSabbath,albumrock alternativemetal alternativerock classicrock hardrock metal rock stonerrock,1970-09-18 00:00:00
+SixteenStone(Remastered)_Bush,alternativemetal alternativerock funkrock garagerock grunge numetal poprock postgrunge rapmetal rock,1994-12-06 00:00:00
+TheColourAndTheShape_FooFighters,alternativemetal alternativerock funkrock permanentwave poprock postgrunge rock,1997-05-20 00:00:00
+21stCenturyBreakdown_GreenDay,permanentwave poppunk poprock rock,2009-05-15 00:00:00
+AmericanIdiot_GreenDay,permanentwave poppunk poprock rock,2004-09-21 00:00:00
+MasterOfPuppets_Metallica,alternativemetal hardrock metal rock speedmetal thrashmetal,1986-03-03 00:00:00
+SouthOfHeaven_Slayer,alternativemetal deathmetal groovemetal hardrock melodicmetalcore metal numetal rapmetal raprock rock speedmetal thrashmetal,1988-01-01 00:00:00
+AppetiteForDestruction_GunsN'Roses,albumrock alternativerock classicrock glammetal hardrock rock,1987-01-01 00:00:00
+BloodSugarSexMagik(DeluxeVersion)_RedHotChiliPeppers,alternativerock funkmetal funkrock permanentwave rock,1991-09-24 00:00:00
+I'mWithYou_RedHotChiliPeppers,alternativerock funkmetal funkrock permanentwave rock,2011-08-29 00:00:00
+ByTheWay(DeluxeVersion)_RedHotChiliPeppers,alternativerock funkmetal funkrock permanentwave rock,2002-07-09 00:00:00
+Californication_RedHotChiliPeppers,alternativerock funkmetal funkrock permanentwave rock,1999-06-08 00:00:00
+DivineIntervention_Slayer,alternativemetal deathmetal groovemetal hardrock melodicmetalcore metal numetal rapmetal raprock rock speedmetal thrashmetal,1994-01-01 00:00:00
+Dookie_GreenDay,permanentwave poppunk poprock rock,1994-02-01 00:00:00
+HellAwaits_Slayer,alternativemetal deathmetal groovemetal hardrock melodicmetalcore metal numetal rapmetal raprock rock speedmetal thrashmetal,1985-01-01 00:00:00
+KidA_Radiohead,alternativerock indierock melancholia permanentwave rock,2000-10-01 00:00:00
+MonumentsToAnElegy_TheSmashingPumpkins,alternativemetal alternativerock bluesrock classicrock funkrock garagerock indierock numetal permanentwave popchristmas poprock postgrunge rock,2014-12-09 00:00:00
+Mother'sMilk_RedHotChiliPeppers,alternativerock funkmetal funkrock permanentwave rock,1989-08-16 00:00:00
+Nevermind(Remastered)_Nirvana,alternativerock grunge permanentwave postgrunge rock,1991-09-26 00:00:00
+TheGetaway_RedHotChiliPeppers,alternativerock funkmetal funkrock permanentwave rock,2016-06-17 00:00:00
+YellowSubmarine(Remastered)_TheBeatles,britishinvasion classicrock merseybeat protopunk psychedelicrock rock,1969-01-17 00:00:00
+InUtero-20thAnniversary-DeluxeEdition_Nirvana,alternativerock grunge permanentwave postgrunge rock,1993-09-21 00:00:00
+Mutter_Rammstein,alternativemetal germanmetal industrial industrialmetal industrialrock neuedeutscheharte numetal,2001-04-02 00:00:00
+"Death,PierceMe_Silencer",atmosphericblackmetal,2001-02-06 00:00:00
+FreakyStyley_RedHotChiliPeppers,alternativerock funkmetal funkrock permanentwave rock,1985-08-16 00:00:00
+UseYourIllusionII_GunsN'Roses,albumrock alternativerock classicrock glammetal hardrock rock,1991-01-01 00:00:00
+Reunion_BlackSabbath,albumrock alternativemetal alternativerock classicrock hardrock metal rock stonerrock,1998-10-05 00:00:00
+HeavenAndHell(RemasteredEdition)_BlackSabbath,albumrock alternativemetal alternativerock classicrock hardrock metal rock stonerrock,1980-01-01 00:00:00
+Sabotage(RemasteredEdition)_BlackSabbath,albumrock alternativemetal alternativerock classicrock hardrock metal rock stonerrock,1975-07-28 00:00:00
+BlackSabbath(RemasteredEdition)_BlackSabbath,albumrock alternativemetal alternativerock classicrock hardrock metal rock stonerrock,1970-02-13 00:00:00
+MobRules(RemasteredEdition)_BlackSabbath,albumrock alternativemetal alternativerock classicrock hardrock metal rock stonerrock,1981-11-04 00:00:00
+BornAgain_BlackSabbath,albumrock alternativemetal alternativerock classicrock hardrock metal rock stonerrock,1983-08-07 00:00:00
+Dehumanizer(RemasteredEdition)_BlackSabbath,albumrock alternativemetal alternativerock classicrock hardrock metal rock stonerrock,1992-01-01 00:00:00
+13_BlackSabbath,albumrock alternativemetal alternativerock classicrock hardrock metal rock stonerrock,2013-01-01 00:00:00
+ValleyOfTheDamned_DragonForce,metal powermetal progressivemetal speedmetal,2003-01-01 00:00:00
+SonicFirestorm_DragonForce,metal powermetal progressivemetal speedmetal,2004-01-01 00:00:00
+TwilightDementia_DragonForce,metal powermetal progressivemetal speedmetal,2010-09-14 00:00:00
+MaximumOverload_DragonForce,metal powermetal progressivemetal speedmetal,2014-08-19 00:00:00
+Wither_DreamTheater,albumrock alternativemetal hardrock metal neoclassicalmetal powermetal progressivemetal progressiverock rock,2009-09-14 00:00:00
+ImagesAndWords_DreamTheater,albumrock alternativemetal hardrock metal neoclassicalmetal powermetal progressivemetal progressiverock rock,1992-06-30 00:00:00
+Awake_DreamTheater,albumrock alternativemetal hardrock metal neoclassicalmetal powermetal progressivemetal progressiverock rock,1994-10-03 00:00:00
+AChangeOfSeasons_DreamTheater,albumrock alternativemetal hardrock metal neoclassicalmetal powermetal progressivemetal progressiverock rock,1995-08-29 00:00:00
+FallingIntoInfinity_DreamTheater,albumrock alternativemetal hardrock metal neoclassicalmetal powermetal progressivemetal progressiverock rock,1997-09-12 00:00:00
+MetropolisPart2:ScenesFromAMemory_DreamTheater,albumrock alternativemetal hardrock metal neoclassicalmetal powermetal progressivemetal progressiverock rock,1999-01-01 00:00:00
+TrainOfThought_DreamTheater,albumrock alternativemetal hardrock metal neoclassicalmetal powermetal progressivemetal progressiverock rock,2003-11-10 00:00:00
+SystematicChaos_DreamTheater,albumrock alternativemetal hardrock metal neoclassicalmetal powermetal progressivemetal progressiverock rock,2007-06-04 00:00:00
+BlackClouds&SilverLinings_DreamTheater,albumrock alternativemetal hardrock metal neoclassicalmetal powermetal progressivemetal progressiverock rock,2009-06-19 00:00:00
+ADramaticTurnOfEvents_DreamTheater,albumrock alternativemetal hardrock metal neoclassicalmetal powermetal progressivemetal progressiverock rock,2011-08-25 00:00:00
+TheAstonishing_DreamTheater,albumrock alternativemetal hardrock metal neoclassicalmetal powermetal progressivemetal progressiverock rock,2016-01-29 00:00:00
+Aeolian_TheOcean,atmosphericpostmetal avantgardemetal djent jazzmetal mathcore postrock postmetal sludgemetal,2006-03-07 00:00:00
+Precambrian_TheOcean,atmosphericpostmetal avantgardemetal djent jazzmetal mathcore postrock postmetal sludgemetal,2007-01-01 00:00:00
+Anthropocentric_TheOcean,atmosphericpostmetal avantgardemetal djent jazzmetal mathcore postrock postmetal sludgemetal,2011-04-12 00:00:00
+ThreeCheersForSweetRevenge_MyChemicalRomance,emo poppunk punkchristmas,2004-06-08 00:00:00
+LifeOnTheMurderScene_MyChemicalRomance,emo poppunk punkchristmas,2006-03-17 00:00:00
+Soup_BlindMelon,alternativemetal alternativerock bluesrock classicrock funkrock garagerock grunge jamband poprock postgrunge psychedelicrock rock,1995-08-03 00:00:00
+Nico_BlindMelon,alternativemetal alternativerock bluesrock classicrock funkrock garagerock grunge jamband poprock postgrunge psychedelicrock rock,1996-10-31 00:00:00
+BlindMelon_BlindMelon,alternativemetal alternativerock bluesrock classicrock funkrock garagerock grunge jamband poprock postgrunge psychedelicrock rock,1992-09-14 00:00:00
+ForMyFriends_BlindMelon,alternativemetal alternativerock bluesrock classicrock funkrock garagerock grunge jamband poprock postgrunge psychedelicrock rock,2008-04-22 00:00:00
+Gish(2011-Remaster)_TheSmashingPumpkins,alternativemetal alternativerock bluesrock classicrock funkrock garagerock indierock numetal permanentwave popchristmas poprock postgrunge rock,1991-01-01 00:00:00
+Adore(2014Remaster)_TheSmashingPumpkins,alternativemetal alternativerock bluesrock classicrock funkrock garagerock indierock numetal permanentwave popchristmas poprock postgrunge rock,1998-01-01 00:00:00
+PiscesIscariot(2012-Remaster)_TheSmashingPumpkins,alternativemetal alternativerock bluesrock classicrock funkrock garagerock indierock numetal permanentwave popchristmas poprock postgrunge rock,1994-01-01 00:00:00
+VanHalen(Reissue)_VanHalen,albumrock alternativerock bluesrock classicrock hardrock mellowgold metal rock softrock,1978-02-07 00:00:00
+VanHalenII(USInternetRelease)_VanHalen,albumrock alternativerock bluesrock classicrock hardrock mellowgold metal rock softrock,1979-01-01 00:00:00
+WomenAndChildrenFirst(USInternetRelease)_VanHalen,albumrock alternativerock bluesrock classicrock hardrock mellowgold metal rock softrock,1980-01-01 00:00:00
+FairWarning(USInternetRelease)_VanHalen,albumrock alternativerock bluesrock classicrock hardrock mellowgold metal rock softrock,1981-01-01 00:00:00
+DiverDown_VanHalen,albumrock alternativerock bluesrock classicrock hardrock mellowgold metal rock softrock,1982-01-01 00:00:00
+1984_VanHalen,albumrock alternativerock bluesrock classicrock hardrock mellowgold metal rock softrock,1984-01-03 00:00:00
+5150_VanHalen,albumrock alternativerock bluesrock classicrock hardrock mellowgold metal rock softrock,1986-03-24 00:00:00
+OU812_VanHalen,albumrock alternativerock bluesrock classicrock hardrock mellowgold metal rock softrock,1988-05-24 00:00:00
+Monster_KISS,albumrock classicrock glammetal glamrock hardrock metal rock,2012-10-09 00:00:00
+PsychoCircus_KISS,albumrock classicrock glammetal glamrock hardrock metal rock,1998-01-01 00:00:00
+CreaturesOfTheNight(RemasteredVersion)_KISS,albumrock classicrock glammetal glamrock hardrock metal rock,1982-10-13 00:00:00
+Dynasty(RemasteredVersion)_KISS,albumrock classicrock glammetal glamrock hardrock metal rock,1979-03-23 00:00:00
+Kiss(RemasteredVersion)_KISS,albumrock classicrock glammetal glamrock hardrock metal rock,1974-02-18 00:00:00
+"YouWantedTheBest,YouGotTheBest!!_KISS",albumrock classicrock glammetal glamrock hardrock metal rock,1996-06-21 00:00:00
+KISS40_KISS,albumrock classicrock glammetal glamrock hardrock metal rock,2014-01-01 00:00:00
+Kill'EmAll(Remastered)_Metallica,alternativemetal hardrock metal rock speedmetal thrashmetal,1983-07-25 00:00:00
+RideTheLightning(DeluxeRemaster)_Metallica,alternativemetal hardrock metal rock speedmetal thrashmetal,1984-07-27 00:00:00
+Metallica_Metallica,alternativemetal hardrock metal rock speedmetal thrashmetal,1991-08-12 00:00:00
+Reload_Metallica,alternativemetal hardrock metal rock speedmetal thrashmetal,1997-11-18 00:00:00
+Load_Metallica,alternativemetal hardrock metal rock speedmetal thrashmetal,1996-06-04 00:00:00
+"Garage,Inc._Metallica",alternativemetal hardrock metal rock speedmetal thrashmetal,1998-11-24 00:00:00
+S&M_Metallica,alternativemetal hardrock metal rock speedmetal thrashmetal,1999-11-23 00:00:00
+PeaceSells...ButWho'sBuying(25thAnniversary)_Megadeth,albumrock alternativemetal alternativerock classicrock funkrock groovemetal hardrock metal numetal rock speedmetal thrashmetal,1986-01-01 00:00:00
+KillingIsMyBusiness...AndBusinessIsGood!_Megadeth,albumrock alternativemetal alternativerock classicrock funkrock groovemetal hardrock metal numetal rock speedmetal thrashmetal,1985-01-01 00:00:00
+"SoFar,SoGood...SoWhat!_Megadeth",albumrock alternativemetal alternativerock classicrock funkrock groovemetal hardrock metal numetal rock speedmetal thrashmetal,1988-01-26 00:00:00
+RustInPeace_Megadeth,albumrock alternativemetal alternativerock classicrock funkrock groovemetal hardrock metal numetal rock speedmetal thrashmetal,1990-10-04 00:00:00
+CountdownToExtinction_Megadeth,albumrock alternativemetal alternativerock classicrock funkrock groovemetal hardrock metal numetal rock speedmetal thrashmetal,1992-07-14 00:00:00
+Youthanasia_Megadeth,albumrock alternativemetal alternativerock classicrock funkrock groovemetal hardrock metal numetal rock speedmetal thrashmetal,1994-10-28 00:00:00
+HiddenTreasures_Megadeth,albumrock alternativemetal alternativerock classicrock funkrock groovemetal hardrock metal numetal rock speedmetal thrashmetal,1995-01-01 00:00:00
+CrypticWritings_Megadeth,albumrock alternativemetal alternativerock classicrock funkrock groovemetal hardrock metal numetal rock speedmetal thrashmetal,1997-06-17 00:00:00
+Risk_Megadeth,albumrock alternativemetal alternativerock classicrock funkrock groovemetal hardrock metal numetal rock speedmetal thrashmetal,1999-08-31 00:00:00
+TheWorldNeedsAHero_Megadeth,albumrock alternativemetal alternativerock classicrock funkrock groovemetal hardrock metal numetal rock speedmetal thrashmetal,2001-05-14 00:00:00
+StillAlive...AndWell?_Megadeth,albumrock alternativemetal alternativerock classicrock funkrock groovemetal hardrock metal numetal rock speedmetal thrashmetal,2002-01-01 00:00:00
+TheSystemHasFailed_Megadeth,albumrock alternativemetal alternativerock classicrock funkrock groovemetal hardrock metal numetal rock speedmetal thrashmetal,2004-09-14 00:00:00
+Th1rt3en_Megadeth,albumrock alternativemetal alternativerock classicrock funkrock groovemetal hardrock metal numetal rock speedmetal thrashmetal,2011-10-26 00:00:00
+RockaRolla_JudasPriest,albumrock alternativemetal classicrock groovemetal hardrock metal progressivemetal rock speedmetal,1974

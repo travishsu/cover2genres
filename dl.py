@@ -5,12 +5,13 @@ import pandas as pd
 import numpy as np
 
 from keras.models import Sequential
-from keras.layers import Conv2D, Flatten, Dense, Activation, MaxPooling2D
+from keras.layers import Conv2D, AtrousConvolution2D, Flatten, Dense, Activation, MaxPooling2D
 from keras.layers import Dropout
 from keras import backend as K
 
 data_type = {"Filename": str, "Genres": str, "Release Year": int}
 albums = pd.read_csv("albumlabel.csv", dtype=data_type, parse_dates=["Release Year"])
+albums = albums.sample(136)
 
 token = Tokenizer()
 token.fit_on_texts(albums.Genres)
@@ -35,28 +36,29 @@ Xmean = np.mean(X, axis=0)
 Xstd  = np.std(X, axis=0)
 
 X -= Xmean
-X /= Xstd
+X /= (Xstd+0.0001)
 
 # Build NN Model
 model = Sequential()
-model.add(Conv2D(20, 4, 4, border_mode='same', subsample=(2, 2), input_shape=(300,300,3), dim_ordering='tf'))
-model.add(Activation('relu'))
-#model.add(Conv2D(40, 4, 4, border_mode='same', subsample=(2, 2)))
-#model.add(Activation('relu'))
-#model.add(Conv2D(40, 5, 5, border_mode='same', subsample=(3, 3)))
-#model.add(Activation('relu'))
-model.add(Conv2D(40, 5, 5, border_mode='same', subsample=(3, 3)))
-model.add(Activation('relu'))
+model.add(Conv2D(16, 3, 3, border_mode='same', input_shape=(300,300,3), dim_ordering='tf'))
+model.add(Activation('sigmoid'))
+model.add(MaxPooling2D((4, 4)))
+model.add(Conv2D(16, 3, 3, border_mode='same'))
+model.add(Activation('sigmoid'))
 model.add(MaxPooling2D((2, 2)))
-#model.add(Conv2D(80, 5, 5, border_mode='same', subsample=(3, 3)))
-#model.add(Activation('relu'))
-#model.add(MaxPooling2D((2, 2)))
-#model.add(Conv2D(80, 2, 2, border_mode='valid'))
 model.add(Dropout(0.25))
 
+#model.add(Conv2D(32, 5, 5, border_mode='valid'))
+#model.add(Activation('relu'))
+#model.add(Conv2D(32, 3, 3, border_mode='valid'))
+#model.add(Activation('relu'))
+#model.add(MaxPooling2D((2, 2)))
+#model.add(Dropout(0.25))
+
 model.add(Flatten())
-model.add(Dense(128))
-model.add(Activation('relu'))
+#model.add(Dense(256))
+#model.add(Activation('relu'))
+#model.add(Dropout(0.5))
 model.add(Dense(train_y.shape[1]))
 model.add(Activation('softmax'))
 
@@ -68,16 +70,16 @@ model.compile(loss='categorical_crossentropy',
               optimizer='adam',
               metrics=['accuracy'])
 
-model.fit(X[15:], train_y[15:],
-          batch_size=5,
-          nb_epoch=50)
+model.fit(X[:100], train_y[:100],
+          batch_size=1,
+          nb_epoch=10)
 
 def greater10percent(y):
     p = []
     for s in y:
         tmp = []
         for i in xrange(len(s)):
-            if s[i] > 0.1:
+            if s[i] > 0.01:
                 tmp.append(i)
         p.append(tmp)
     return p
@@ -90,5 +92,9 @@ idx_word = dict()
 for key in token.word_index.keys():
     idx_word[token.word_index[key]] = key
 
-for i in xrange(41):
+for i in xrange(len(p)):
     print(i, p[i], p_[i])
+
+def predict_req(filename, model):
+    reqdata = array([array(Image.open(filename))])
+    return model.predict(reqdata)
