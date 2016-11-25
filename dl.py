@@ -48,6 +48,9 @@ model.add(MaxPooling2D((4, 4)))
 model.add(Conv2D(16, 3, 3, border_mode='same'))
 model.add(Activation('sigmoid'))
 model.add(MaxPooling2D((2, 2)))
+model.add(Conv2D(16, 3, 3, border_mode='same'))
+model.add(Activation('sigmoid'))
+model.add(MaxPooling2D((2, 2)))
 model.add(Dropout(0.25))
 
 #model.add(Conv2D(32, 5, 5, border_mode='valid'))
@@ -58,9 +61,9 @@ model.add(Dropout(0.25))
 #model.add(Dropout(0.25))
 
 model.add(Flatten())
-#model.add(Dense(256))
-#model.add(Activation('relu'))
-#model.add(Dropout(0.5))
+model.add(Dense(256))
+model.add(Activation('relu'))
+model.add(Dropout(0.5))
 model.add(Dense(train_y.shape[1]))
 #model.add(Activation('softmax'))
 model.add(Activation('sigmoid'))
@@ -76,15 +79,15 @@ model.compile(loss='binary_crossentropy',
               metrics=['accuracy'])
 
 model.fit(X[:100], train_y[:100],
-          batch_size=1,
-          nb_epoch=10)
+          batch_size=5,
+          nb_epoch=100)
 
 def greater10percent(y):
     p = []
     for s in y:
         tmp = []
         for i in xrange(len(s)):
-            if s[i] > 0.01:
+            if s[i] > 0.5:
                 tmp.append(i)
         p.append(tmp)
     return p
