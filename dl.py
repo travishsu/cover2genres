@@ -7,14 +7,16 @@ import numpy as np
 from keras.models import Sequential
 from keras.layers import Conv2D, AtrousConvolution2D, Flatten, Dense, Activation, MaxPooling2D
 from keras.layers import Dropout
+from keras.optimizers import SGD
 from keras import backend as K
 
 data_type = {"Filename": str, "Genres": str, "Release Year": int}
 albums = pd.read_csv("albumlabel.csv", dtype=data_type, parse_dates=["Release Year"])
-albums = albums.sample(136)
+albums = albums.sample(130)
 
 token = Tokenizer()
-token.fit_on_texts(albums.Genres)
+genres = list(albums.Genres.get_values())
+token.fit_on_texts(genres)
 
 label_lst = albums.Genres.get_values()
 train_y = zeros((len(label_lst), max(token.word_index.values())+1))
@@ -60,13 +62,16 @@ model.add(Flatten())
 #model.add(Activation('relu'))
 #model.add(Dropout(0.5))
 model.add(Dense(train_y.shape[1]))
-model.add(Activation('softmax'))
+#model.add(Activation('softmax'))
+model.add(Activation('sigmoid'))
 
-def f(x):
-    return x / (K.max(x))
-model.add(Activation(f))
+#def f(x):
+#    return x / (K.max(x))
+#model.add(Activation(f))
 
-model.compile(loss='categorical_crossentropy',
+#sgd = SGD(lr=1e-2, decay=1e-6, momentum=0.9, nesterov=True)
+#model.compile(loss='categorical_crossentropy',
+model.compile(loss='binary_crossentropy',
               optimizer='adam',
               metrics=['accuracy'])
 
