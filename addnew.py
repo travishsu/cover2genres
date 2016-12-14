@@ -11,7 +11,7 @@ def addAlbum(query, datadir, idx=[0,0]):
     if detail['coversize']==False:
         print("unmatched pixel size")
         return None
-    filename = getFilename(detail)
+    filename = detail['artist']+'_'+detail['release_date']
     u = urllib2.urlopen(detail['coverurl'])
     f = open(datadir+"img/"+filename+'.jpg', 'wb')
     f.write(u.read())
