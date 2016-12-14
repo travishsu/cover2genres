@@ -20,7 +20,7 @@ def toFilename(st):
         if blank:
             new += s.upper()
             blank=False
-        else:
+        elif s in lowercase or s in uppercase:
             new += s
     return new
 
@@ -34,14 +34,14 @@ def transgen(s):
 def getFilename(detail):
     return toFilename(detail['album']) + "_" + toFilename(detail['artist'])
 
-def getAlbumDetail(albumquery, qtype='album'):
-    query = 'album:'+albumquery
+def getAlbumDetail(albumquery, qtype='album', idx = [0,0]):
+    query = albumquery
 
-    result = s.search(query, limit=1, type=qtype)['albums']['items'][0]
+    result = s.search(query, limit=1, type=qtype)['albums']['items'][idx[0]]
     albumid = result['id']
     albumname = result['name']
     try:
-        a = [d.search(albumname, type='album')[1].data['genre'], d.search(albumname, type='album')[1].data['style']]
+        a = [d.search(albumname, type='album')[idx[1]].data['genre'], d.search(albumname, type='album')[idx[1]].data['style']]
         genres = [gen.lower() for gen in a[0]]
         for genre in a[1]:
             genres.append(genre.lower())

@@ -6,9 +6,9 @@ from util import getAlbumDetail, getFilename
 data_type = {"Filename": str, "Genres": str, "Release Year": int}
 albums = pd.read_csv("albumlabel.csv", dtype=data_type, parse_dates=["Release Year"])
 
-def addAlbum(query, dir='data/'):
+def addAlbum(query, dir='data/', idx=[0,0]):
     albums = pd.read_csv("albumlabel.csv", dtype=data_type, parse_dates=["Release Year"])
-    detail = getAlbumDetail(query)
+    detail = getAlbumDetail(query, idx=idx)
     if detail['coversize']==False:
         print("unmatched pixel size")
         return None
