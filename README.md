@@ -4,6 +4,7 @@
  - spotipy
  - discogs_client
 
+# Model 在 `dl.py`
 # 抓取專輯資料
 
 首先，執行 `run addnew.py`：
