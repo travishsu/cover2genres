@@ -12,9 +12,8 @@ from keras.layers.normalization import BatchNormalization
 from keras.optimizers import SGD
 from keras import backend as K
 
-data_dir = "data/set1/"
 data_type = {"Filename": str, "Genres": str, "Release Year": int}
-albums = pd.read_csv(data_dir + "albumlabel.csv", dtype=data_type, parse_dates=["Release Year"])
+albums = pd.read_csv("albumlabel.csv", dtype=data_type, parse_dates=["Release Year"])
 
 token = Tokenizer()
 genres = list(albums.Genres.get_values())
@@ -34,7 +33,7 @@ for album_labels in label_lst:
         data_y[i, token.word_index[label]] = 1
     i += 1
 
-X_origin = array([array(Image.open(data_dir+"img/"+filename+".jpg")) for filename in albums.Filename.get_values()])
+X_origin = array([array(Image.open("data/"+filename+".jpg")) for filename in albums.Filename.get_values()])
 X = zeros((X_origin.shape[0], 300, 300, 3))
 for i in xrange(X_origin.shape[0]):
     X[i] = X_origin[i]
