@@ -39,10 +39,9 @@ X = zeros((X_origin.shape[0], 300, 300, 3))
 for i in xrange(X_origin.shape[0]):
     X[i] = X_origin[i]
 
-X /= 255
+# Normalization
 Xmean = np.mean(X, axis=0)
 Xstd  = np.std(X, axis=0)
-
 X -= Xmean
 X /= (Xstd+0.0001)
 
