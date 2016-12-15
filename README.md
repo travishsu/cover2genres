@@ -1,5 +1,5 @@
 # Dependencies
- - Theano (or Tensorflow)
+ - Theano or Tensorflow)
  - Keras
  - spotipy
  - discogs_client
