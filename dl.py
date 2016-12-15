@@ -7,7 +7,7 @@ import numpy as np
 
 from keras.preprocessing.text import Tokenizer
 from keras.models import Sequential
-from keras.layers import Conv2D, AtrousConvolution2D, Flatten, Dense, Activation, MaxPooling2D, Dropout
+from keras.layers import Conv2D, AtrousConvolution2D, Flatten, Dense, MaxPooling2D, Dropout, ZeroPadding2D
 from keras.layers.normalization import BatchNormalization
 from keras.optimizers import SGD
 from keras import backend as K
@@ -34,8 +34,8 @@ for album_labels in label_lst:
         data_y[i, token.word_index[label]] = 1
     i += 1
 
-X_origin = array([array(Image.open(data_dir+"img/"+filename+".jpg")) for filename in albums.Filename.get_values()])
-X = zeros((X_origin.shape[0], 300, 300, 3))
+X_origin = array([array(Image.open(data_dir+"resize/"+filename+".jpg")) for filename in albums.Filename.get_values()])
+X = zeros((X_origin.shape[0], 128, 128, 3))
 for i in xrange(X_origin.shape[0]):
     X[i] = X_origin[i]
 
@@ -58,45 +58,51 @@ train_x, test_x, train_y, test_y = train_test_split(X, data_y, test_size=0.2)
 
 # Build NN Model
 model = Sequential()
-model.add(Conv2D(32*2, 3, 3, border_mode='same', input_shape=(300,300,3), dim_ordering='tf'))
-model.add(Activation('relu'))
-model.add(MaxPooling2D((4, 4)))
-#model.add(BatchNormalization())
-model.add(Conv2D(40*2, 3, 3, border_mode='same'))
-model.add(Activation('relu'))
-model.add(MaxPooling2D((2, 2)))
-#model.add(BatchNormalization())
-model.add(Conv2D(48*2, 3, 3, border_mode='same'))
-model.add(Activation('relu'))
-model.add(MaxPooling2D((2, 2)))
-model.add(Dropout(0.5))
+model.add(ZeroPadding2D((1,1),input_shape=train_x.shape[1:], dim_ordering='tf'))
+model.add(Conv2D(64, 3, 3, border_mode='same', activation='relu'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(64, 3, 3, border_mode='same', activation='relu'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(64, 3, 3, border_mode='same', activation='relu'))
+model.add(MaxPooling2D((2, 2), strides=(2,2)))
 
-#model.add(Conv2D(32, 5, 5, border_mode='valid'))
-#model.add(Activation('relu'))
-#model.add(Conv2D(32, 3, 3, border_mode='valid'))
-#model.add(Activation('relu'))
-#model.add(MaxPooling2D((2, 2)))
-#model.add(Dropout(0.25))
+model.add(Conv2D(128, 3, 3, border_mode='same', activation='relu'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(128, 3, 3, border_mode='same', activation='relu'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(128, 3, 3, border_mode='same', activation='relu'))
+model.add(MaxPooling2D((2, 2), strides=(2,2)))
+
+model.add(Conv2D(256, 3, 3, border_mode='same', activation='relu'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(256, 3, 3, border_mode='same', activation='relu'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(256, 3, 3, border_mode='same', activation='relu'))
+model.add(MaxPooling2D((2, 2), strides=(2,2)))
+
+model.add(Conv2D(512, 3, 3, border_mode='same', activation='relu'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(512, 3, 3, border_mode='same', activation='relu'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(512, 3, 3, border_mode='same', activation='relu'))
+model.add(MaxPooling2D((2, 2), strides=(2,2)))
+
 
 model.add(Flatten())
 model.add(BatchNormalization())
-model.add(Dense(256))
-model.add(Activation('sigmoid'))
-model.add(Dropout(0.2))
-model.add(Dense(train_y.shape[1]))
-#model.add(Activation('softmax'))
-model.add(Activation('tanh'))
+model.add(Dense(4096, activation='relu'))
+model.add(Dropout(0.5))
+model.add(Dense(4096, activation='relu'))
+model.add(Dropout(0.5))
+model.add(Dense(train_y.shape[1], activation='sigmoid'))
 
 #def f(x):
 #    return x / (K.max(x))
 #model.add(Activation(f))
 
 sgd = SGD(lr=0.05, decay=1e-6, momentum=0.9, nesterov=True)
-#model.compile(loss='categorical_crossentropy',
-#model.compile(loss='binary_crossentropy',
-#              optimizer=sgd,
-model.compile(loss='hinge',
-	      optimizer='adadelta',
+model.compile(loss='binary_crossentropy',
+	          optimizer='adadelta',
               metrics=['accuracy'])
 
 model.fit(train_x, train_y,
@@ -110,7 +116,7 @@ def greater10percent(y):
     for s in y:
         tmp = []
         for i in xrange(len(s)):
-            if s[i] > 0.1:
+            if s[i] > 0.5:
                 tmp.append(i)
         p.append(tmp)
     return p
