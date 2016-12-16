@@ -4,7 +4,9 @@
  - spotipy
  - discogs_client
 
-# Model 在 `dl.py`
+# `dl.py`
+概念上只有 `CNN` + 兩層 `Full-Connected`。
+輸出為各個 label 的 sigmoid activation，loss 為 binary cross-entropy --- [參考來源](https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3)
 # 抓取專輯資料
 
 首先，執行 `run addnew.py`：
@@ -13,16 +15,20 @@
 
     getAlbumDetail('Wild Light')
 
-    > {u'album': u'Wild Light',
-    >  u'artist': u'65daysofstatic',
-    >  u'coversize': True,
-    >  u'coverurl':u'https://i.scdn.co/image/fe8ed972cf16049d6157985c6e1dc990b8f7b9ca',
-    >  u'genres': [u'electronic',u'rock',u'postrock', u'mathrock', u'shoegaze'],
-    >  u'release_date': u'2013-10-29'}
-因為圖片格式目前只能固定在 `300x300`，所以 `coversize` 為 `True` 才有辦法儲存。
+    > u'coverurl': u'https://api-img.discogs.com/BGI98JDQsOh5YOauWy69Vt-8DeA=/fit-in/150x150/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-4910396-1379177088-6115.jpeg.jpg',
+    > u'genres': [u'electronic', u'rock', u'postrock', u'mathrock', u'shoegaze'],
+    > u'release_date': u'2013',
+    > u'title': u'65daysofstatic - Wild Light'
 
 ## 新增專輯
 使用 `addAlbum(${專輯名稱}, ${目錄路徑})`
 
     addAlbum('Wild Light', 'data/set2/')
 如果沒錯誤訊息，`data/set2/albumlabel.csv` 會多增加一行資料，`data/set2/img` 裡也會多一張圖。
+
+## 壓縮
+因為使用了 `Discogs API` 所提供的圖片，並沒有限制其圖片大小，所以在 `set${x}` 已經收集夠多的圖片後，需要修改 `resize.py`:
+
+    setpath='data/set${x}/'
+
+再執行它。
