@@ -8,7 +8,6 @@ from keras.preprocessing.text import Tokenizer
 from keras.models import Sequential
 from keras.layers import Conv2D, AtrousConvolution2D, Flatten, Dense, MaxPooling2D, Dropout, ZeroPadding2D
 from keras.layers.normalization import BatchNormalization
-from keras.optimizers import SGD
 from keras import backend as K
 
 data_dir = "data/set1/"
@@ -54,8 +53,6 @@ for i in xrange(len(cate_sum)):
     if cate_sum[i]<10: # the criteria is to get rid of the genres with less than 10 training data
         break
 data_y = data_y[:,:i]
-cate_weight = -log(1.-1./cate_sum[:i])
-cate_weight = 10**(10*cate_weight)
 
 # split data
 train_x, test_x, train_y, test_y = train_test_split(X, data_y, test_size=0.2)
@@ -82,7 +79,6 @@ model.add(Dense(train_y.shape[1], activation='sigmoid'))
 #    return x / (K.max(x))
 #model.add(Activation(f))
 
-sgd = SGD(lr=0.05, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(loss='binary_crossentropy',
               optimizer='adadelta',
               metrics=['accuracy'])
@@ -91,7 +87,8 @@ model.fit(train_x, train_y,
           validation_data = (test_x, test_y),
           batch_size=5,
           nb_epoch=10,
-          class_weight=cate_weight)
+          shuffle=True,
+          class_weight='auto')
 
 
 def greater50percent(y):

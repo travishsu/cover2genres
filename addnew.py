@@ -1,7 +1,9 @@
 import urllib2
 import pandas as pd
 from util import getAlbumDetail, getAlbumDetailByID
+import discogs_client
 
+d = discogs_client.Client('ExampleApplication/0.1', user_token="tPgLfOQMObTxlKYXoSKpZkbVODRLZFqSwPzngIrb")
 data_type = {"Filename": str, "Genres": str, "Release Year": int}
 
 def addAlbum(query, datadir, idx=[0,0]):
@@ -41,8 +43,38 @@ def addAlbumByID(rid, datadir):
         albums.to_csv(datadir+'albumlabel.csv', index=False)
     else:
         print('album already exists')
-        
+
     u = urllib2.urlopen(detail['coverurl'])
     f = open(datadir+"img/"+filename+'.jpg', 'wb')
     f.write(u.read())
     f.close()
+
+def addAlbumByLabelID(label_id, setpath, limit=100, n_version=30):
+        l = d.label(label_id)
+        lst = l.releases
+
+        for i in xrange(limit):
+            try:
+                addAlbumByFilterMaster(lst[i], setpath, n_version)
+                print("Progress: {}/{} success".format(i+1, limit))
+            except:
+                print("Progress: {}/{} error".format(i+1, limit))
+
+def addAlbumByArtistID(artist_id, setpath, limit=100, n_version=100):
+        l = d.artist(artist_id)
+        lst = l.releases
+
+        for i in xrange(limit):
+            try:
+                addAlbumByFilterMaster(lst[i], setpath, n_version)
+                print("Progress: {}/{}".format(i+1, limit))
+            except:
+                print("Progress: {}/{}".format(i+1, limit))
+
+def addAlbumByFilterMaster(release, setpath, n_version):
+    if release.main_release == None:
+        return None
+    if release.versions.count < n_version:
+        return None
+    rid = release.main_release.id
+    addAlbumByID(rid, setpath)

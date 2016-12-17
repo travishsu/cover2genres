@@ -26,24 +26,11 @@
     addAlbum('Wild Light', 'data/set2/')
 如果沒錯誤訊息，`data/set2/albumlabel.csv` 會多增加一行資料，`data/set2/img` 裡也會多一張圖。
 
-## 新增廠牌的全部專輯
-首先要找到廠牌在 Discogs 的 Label ID，我想在網頁上 URL 最後那邊都找得到。
+## 新增演出者的全部專輯
+首先要找到演出者在 Discogs 的 Artist ID，我想在網頁上 URL 最後那邊都找得到。
 
-    setpath = 'data/set4/'
-    label_id = 31269
+    addAlbumByArtistID(artist_id, setpath)
 
-    import discogs_client
-    d = discogs_client.Client('ExampleApplication/0.1', user_token="tPgLfOQMObTxlKYXoSKpZkbVODRLZFqSwPzngIrb")
-
-    l = d.label(label_id)
-    lst = [ release.id for release in l.releases]
-
-    for i in xrange(len(lst)):
-        try:
-            addAlbumByID(lst[i], setpath)
-            print("Progress: {}/{} success".format(i+1, len(lst)))
-        except:
-            print("Progress: {}/{} error".format(i+1, len(lst)))
 ## 壓縮
 因為使用了 `Discogs API` 所提供的圖片，並沒有限制其圖片大小，所以在 `set${x}` 已經收集夠多的圖片後，需要修改 `resize.py`:
 
