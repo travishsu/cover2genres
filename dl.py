@@ -60,18 +60,18 @@ train_x, test_x, train_y, test_y = train_test_split(X, data_y, test_size=0.2)
 # Build NN Model (model to optimize)
 model = Sequential()
 model.add(ZeroPadding2D((1,1),input_shape=train_x.shape[1:], dim_ordering='tf'))
-model.add(Conv2D(64, 3, 3, border_mode='valid', activation='relu'))
+model.add(Conv2D(32, 3, 3, border_mode='valid', activation='relu'))
 model.add(ZeroPadding2D((1,1)))
-model.add(Conv2D(64, 3, 3, border_mode='valid', activation='relu'))
+model.add(Conv2D(32, 3, 3, border_mode='valid', activation='relu'))
 model.add(ZeroPadding2D((1,1)))
-model.add(Conv2D(64, 3, 3, border_mode='valid', activation='relu'))
+model.add(Conv2D(32, 3, 3, border_mode='valid', activation='relu'))
 model.add(MaxPooling2D((2, 2), strides=(2,2)))
 
 model.add(Flatten())
 model.add(BatchNormalization())
-model.add(Dense(4096, activation='relu'))
+model.add(Dense(1024, activation='relu'))
 model.add(Dropout(0.5))
-model.add(Dense(4096, activation='relu'))
+model.add(Dense(1024, activation='relu'))
 model.add(Dropout(0.5))
 model.add(Dense(train_y.shape[1], activation='sigmoid'))
 
@@ -79,7 +79,7 @@ model.add(Dense(train_y.shape[1], activation='sigmoid'))
 #    return x / (K.max(x))
 #model.add(Activation(f))
 
-model.compile(loss='binary_crossentropy',
+model.compile(loss='categorical_crossentropy',
               optimizer='adadelta',
               metrics=['accuracy'])
 
