@@ -42,7 +42,7 @@ def addAlbumByID(rid, datadir):
         albums = albums.append(newdata, ignore_index=True)
         albums.to_csv(datadir+'albumlabel.csv', index=False)
     else:
-        print('album already exists')
+        return ' |--- [Already exists]'
 
     u = urllib2.urlopen(detail['coverurl'])
     f = open(datadir+"img/"+filename+'.jpg', 'wb')
@@ -63,18 +63,27 @@ def addAlbumByLabelID(label_id, setpath, limit=100, n_version=30):
 def addAlbumByArtistID(artist_id, setpath, limit=100, n_version=100):
         l = d.artist(artist_id)
         lst = l.releases
-
+        count = 0
         for i in xrange(limit):
             try:
-                addAlbumByFilterMaster(lst[i], setpath, n_version)
-                print("Progress: {}/{}".format(i+1, limit))
+                text = addAlbumByFilterMaster(lst[i], setpath, n_version)
+                print "[OK  ] Progress: {}/{}, {}".format(i+1, limit, lst[i].title.encode('ascii', 'ignore')),
+                print(text)
+                count += 1
             except:
-                print("Progress: {}/{}".format(i+1, limit))
+                print("[Fail] Progress: {}/{}".format(i+1, limit))
+        print("Summary: {} data added".format(count))
 
 def addAlbumByFilterMaster(release, setpath, n_version):
     if release.main_release == None:
-        return None
-    if release.versions.count < n_version:
-        return None
+        text = ' |--- [Not a master]'
+        return text
+    n = release.versions.count
+    if n < n_version:
+        text = ' |--- [Number of versions too little: {}]'.format(n)
+        return text
     rid = release.main_release.id
-    addAlbumByID(rid, setpath)
+    text = addAlbumByID(rid, setpath)
+    if text==None:
+        text = ' |--- [Success]'
+    return text
