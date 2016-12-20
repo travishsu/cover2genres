@@ -33,7 +33,7 @@ Stone Age_1971,rock blues bluesrock rockroll psychedelicrock,1971-01-01 00:00:00
 Brown Sugar  Bitch  Let It Rock_1971,rock poprock,1971-01-01 00:00:00
 Hot Rocks 1964-1971_1971,rock bluesrock poprock,1971-01-01 00:00:00
 Sticky Fingers_1971,rock classicrock,1971-01-01 00:00:00
-More Hot Rocks (Big Hits & Fazed Cookies)_1972,rock rockroll poprock,1972-01-01 00:00:00
+More Hot Rocks (Big Hits  Fazed Cookies)_1972,rock rockroll poprock,1972-01-01 00:00:00
 Exile On Main St._1972,rock bluesrock rockroll classicrock,1972-01-01 00:00:00
 Angie_1973,rock classicrock,1973-01-01 00:00:00
 No Stone Unturned_1973,rock rockroll rhythmblues,1973-01-01 00:00:00
@@ -87,7 +87,7 @@ The Ultimate Experience_1992,rock psychedelicrock experimental,1992-01-01 00:00:
 Blues_1994,rock bluesrock,1994-01-01 00:00:00
 Experience Hendrix - The Best Of Jimi Hendrix_0,rock bluesrock psychedelicrock,0
 Smash Hits_1968,rock bluesrock psychedelicrock,1968
-Axis: Bold As Love_1967,rock psychedelicrock electricblues,1967
+Axis Bold As Love_1967,rock psychedelicrock electricblues,1967
 Soul Limbo_1968,funksoul pop,1968
 Easy Rider (Music From The Soundtrack)_1969,rock stagescreen soundtrack classicrock,1969
 Layla And Other Assorted Love Songs_1970,rock bluesrock,1970
@@ -104,7 +104,7 @@ Couldn't Stand The Weather_1984,rock blues texasblues,1984
 Room For Squares_2001,rock alternativerock indierock,2001
 Heavier Things_2003,rock bluesrock poprock,2003
 Continuum_2006,rock blues alternativerock bluesrock poprock indierock,2006
-Where The Light Is: John Mayer Live In Los Angeles_2008,rock blues bluesrock acoustic,2008
+Where The Light Is John Mayer Live In Los Angeles_2008,rock blues bluesrock acoustic,2008
 Battle Studies_2009,rock blues pop folkworldcountry bluesrock acoustic folkrock poprock,2009
 Born And Raised_2012,rock bluesrock folkrock countryrock,2012
 Paradise Valley_2013,rock folkworldcountry softrock countryrock,2013
@@ -366,7 +366,7 @@ Echoes (The Best Of Pink Floyd)_2001,rock psychedelicrock,2001
 Proper Education_2006,electronic progressivehouse house,2006
 Hooray For Boobies_1999,rock alternativerock punk,1999
 Zabriskie Point (Original Motion Picture Soundtrack)_1970,rock stagescreen folkrock soundtrack psychedelicrock,1970
-Fields Of Gold: The Best Of Sting 1984 - 1994_1994,rock pop softrock poprock,1994
+Fields Of Gold The Best Of Sting 1984 - 1994_1994,rock pop softrock poprock,1994
 Live At Pompeii - Entire Soundtrack - Two Record Set_1974,rock progrock,1974
 Floyd's Of London_1974,rock pop psychedelicrock progrock,1974
 Live - The Best Of Tour 72_1973,rock psychedelicrock progrock,1973
@@ -401,7 +401,7 @@ Eagles Live_1980,rock classicrock,1980
 Eagles Greatest Hits Volume 2_1982,rock classicrock,1982
 Hell Freezes Over_1994,rock countryrock classicrock,1994
 Alive II_1977,rock hardrock poprock,1977
-FM:  The Original Movie Soundtrack_1978,rock pop stagescreen countryrock softrock classicrock soundtrack poprock,1978
+FM  The Original Movie Soundtrack_1978,rock pop stagescreen countryrock softrock classicrock soundtrack poprock,1978
 Aerosmith_1973,rock bluesrock classicrock,1973
 Get Your Wings_1974,rock hardrock classicrock,1974
 Toys In The Attic_1975,rock hardrock bluesrock,1975
@@ -462,7 +462,7 @@ Human Clay_1999,rock alternativerock,1999
 The Black Parade_2006,rock gothrock emo punk,2006
 Slipknot_1999,rock numetal,1999
 Iowa_2001,rock numetal heavymetal,2001
-Vol. 3: (The Subliminal Verses)_2004,rock numetal,2004
+Vol. 3 (The Subliminal Verses)_2004,rock numetal,2004
 All Hope Is Gone_2008,rock heavymetal hardrock,2008
 The Sickness_2000,rock hardrock heavymetal,2000
 Korn_1994,rock numetal,1994
@@ -541,12 +541,12 @@ Bump Ahead_1993,rock pop poprock,1993
 Wild World_1993,rock poprock,1993
 Japandemonium_1994,rock softrock poprock,1994
 Hey Man_1996,rock softrock hardrock,1996
-"Big, Bigger, Biggest: The Best Of Mr. Big_1996",rock softrock poprock hardrock,1996
+"Big, Bigger, Biggest The Best Of Mr. Big_1996",rock softrock poprock hardrock,1996
 Get Over It_1999,rock hardrock,1999
 Actual Size_2001,rock softrock poprock,2001
 Back To Budokan_2009,rock hardrock,2009
 What If..._2011,rock hardrock,2011
-...The Stories We Could Tell_2014,rock hardrock progrock,2014
+dot...The Stories We Could Tell_2014,rock hardrock progrock,2014
 Thunderblast_2011,rock punk,2011
 Answer That And Stay Fashionable_1995,rock punk,1995
 Fly In The Ointment_1995,rock hardcore punk,1995
@@ -573,7 +573,7 @@ Full Circle_2009,rock alternativerock hardrock,2009
 Scream 3 The Album_2000,rock hardrock,2000
 Woodstock 99_1999,electronic hiphop rock funksoul pop funkmetal hardrock poprock rockroll freestyle bluesrock hiphop rockabilly heavymetal electro classicrock,1999
 End Of Days (Music From And Inspired By The Motion Picture)_1999,electronic hiphop rock alternativerock numetal bigbeat,1999
-Stoned Immaculate: The Music Of The Doors_2000,rock classicrock,2000
+Stoned Immaculate The Music Of The Doors_2000,rock classicrock,2000
 Miss Independent_2003,electronic downtempo synthpop garagehouse,2003
 The Trouble With Love Is_2003,electronic pop house ballad,2003
 Thankful_2003,rock pop ballad vocal poprock,2003
@@ -589,18 +589,18 @@ Piece By Piece_2015,pop vocal,2015
 Love Actually - The Original Soundtrack_2003,rock funksoul pop classical alternativerock acoustic softrock poprock soul,2003
 "I Brought You My Bullets, You Brought Me Your Love_2002",rock emo punk,2002
 Three Cheers For Sweet Revenge_2004,rock emo poppunk,2004
-Danger Days: The True Lives Of The Fabulous Killjoys_2010,rock alternativerock,2010
+Danger Days The True Lives Of The Fabulous Killjoys_2010,rock alternativerock,2010
 May Death Never Stop You_2014,rock pop alternativerock poppunk,2014
 In Love And Death_2004,rock alternativerock hardcore numetal punk,2004
 Mate. Feed. Kill. Repeat._1996,rock nonmusic funkmetal experimental heavymetal fieldrecording industrial,1996
-9.0: Live_2005,rock heavymetal numetal,2005
-.5: The Gray Chapter_2014,rock heavymetal numetal,2014
+9.0 Live_2005,rock heavymetal numetal,2005
+dot.5 The Gray Chapter_2014,rock heavymetal numetal,2014
 The Fight Song_2001,electronic rock industrial heavymetal,2001
 Behind Silence And Solitude_2002,rock heavymetal,2002
 This Darkened Heart_2004,rock deathmetal,2004
 The Fall Of Ideals_2006,rock hardcore deathmetal heavymetal,2006
 Overcome_2008,rock thrash deathmetal heavymetal,2008
-...For We Are Many_2010,rock deathmetal heavymetal,2010
+dot...For We Are Many_2010,rock deathmetal heavymetal,2010
 A War You Cannot Win_2012,rock heavymetal deathmetal,2012
 The Order Of Things_2015,rock deathmetal heavymetal,2015
 MTV2 Headbangers Ball Volume 2_2004,rock industrial deathmetal blackmetal heavymetal thrash hardcore numetal,2004
@@ -630,7 +630,7 @@ Word Up!_2004,rock numetal,2004
 Twisted Transistor_2005,rock numetal,2005
 Coming Undone_2006,rock numetal,2006
 Live On The Other Side_2006,rock numetal,2006
-Live & Rare_2006,rock numetal heavymetal,2006
+Live  Rare_2006,rock numetal heavymetal,2006
 Evolution_2007,rock numetal heavymetal,2007
 MTV Unplugged_2007,rock acoustic,2007
 Freak On A Leash (MTV Unplugged)_2007,rock,2007
@@ -660,7 +660,7 @@ Far From The Sun_2003,rock heavymetal progrock,2003
 Eclipse_2006,rock progrock heavymetal,2006
 Silent Waters_2007,rock deathmetal progrock heavymetal,2007
 Skyforger_2009,rock progrock heavymetal,2009
-Magic & Mayhem - Tales From The Early Years_2010,rock folkrock deathmetal heavymetal,2010
+Magic  Mayhem - Tales From The Early Years_2010,rock folkrock deathmetal heavymetal,2010
 The Beginning Of Times_2011,rock deathmetal heavymetal,2011
 Circle_2013,rock deathmetal progrock,2013
 Under The Red Cloud_2015,rock heavymetal,2015
@@ -673,7 +673,7 @@ Ashes Of The Wake_2004,rock thrash,2004
 Sacrament_2006,rock thrash deathmetal,2006
 Wrath_2009,rock southernrock deathmetal heavymetal thrash hardcore hardrock,2009
 Resolution_2012,rock thrash hardcore heavymetal,2012
-VII: Sturm Und Drang_2015,rock thrash heavymetal hardcore,2015
+VII Sturm Und Drang_2015,rock thrash heavymetal hardcore,2015
 Sweet Vengeance_2003,rock deathmetal,2003
 Descent Into Chaos_2005,rock deathmetal,2005
 A New Disease Is Born_2007,rock deathmetal,2007
@@ -734,7 +734,7 @@ Move Along_2005,rock poprock emo punk,2005
 Gives You Hell_2008,rock punk,2008
 When The World Comes Down_2008,rock pop alternativerock emo,2008
 Kids In The Street_2012,rock,2012
-Take A Look Around (Theme From MI:2)_2000,hiphop rock numetal,2000
+Take A Look Around (Theme From MI2)_2000,hiphop rock numetal,2000
 My Generation_2000,rock numetal,2000
 Rollin'_2000,hiphop rock numetal,2000
 My Way_2001,rock numetal,2001
@@ -742,7 +742,7 @@ Eat You Alive_2003,hiphop rock numetal,2003
 The Unquestionable Truth (Part 1)_2005,hiphop rock numetal hardcorehiphop,2005
 Greatest Hitz_2005,rock numetal,2005
 Gold Cobra_2011,hiphop rock numetal,2011
-Music From And Inspired By M:I-2_2000,electronic rock stagescreen soundtrack heavymetal hiphop numetal synthpop,2000
+Music From And Inspired By MI-2_2000,electronic rock stagescreen soundtrack heavymetal hiphop numetal synthpop,2000
 Family Values Tour '98_1999,hiphop rock gangsta industrial numetal,1999
 Of June_2008,electronic synthpop,2008
 Maybe I'm Dreaming_2008,electronic synthpop,2008
@@ -763,11 +763,11 @@ Goodbye Lullaby_2011,rock alternativerock acoustic poprock indierock,2011
 Hold It Against Me_2011,pop,2011
 Avril Lavigne_2013,rock pop poprock alternativerock,2013
 Mama I'm Coming Home_1991,rock hardrock heavymetal,1991
-Live & Loud_1993,rock hardrock,1993
+Live  Loud_1993,rock hardrock,1993
 Live At Budokan_2002,rock hardrock heavymetal,2002
 The Script_2008,rock pop softrock,2008
 We Cry_2008,rock,2008
-Science & Faith_2010,rock pop softrock indierock,2010
+Science  Faith_2010,rock pop softrock indierock,2010
 #3_2012,rock pop poprock indierock alternativerock,2012
 No Sound Without Silence_2014,pop,2014
 Listen_2014,electronic pop electrohouse dancepop,2014
@@ -807,7 +807,7 @@ Seein' Red_2009,rock hardcore punk,2009
 Als Je Haar Maar Goed Zit... Nr.2_1983,rock hardcore punk,1983
 International P.E.A.C.E. Benefit Compilation_1984,rock hardcore punk,1984
 Holland Hardcore 2nd Attack_0,rock hardcore,0
-Babylon: Bleibt Fahren_1985,rock hardcore punk,1985
+Babylon Bleibt Fahren_1985,rock hardcore punk,1985
 Going Nowhere Slow_1990,rock hardcore punk,1990
 Network Of Friends_1997,rock hardcore,1997
 The Taste Of Ink_2003,rock alternativerock,2003
@@ -820,11 +820,11 @@ Artwork_2009,rock alternativerock emo numetal,2009
 Blood On My Hands_2009,rock alternativerock hardrock posthardcore,2009
 Vulnerable_2012,rock indierock,2012
 Imaginary Enemy_2014,rock alternativerock,2014
-Live & Acoustic At The Palace_2016,rock acoustic alternativerock,2016
-Resident Evil: Apocalypse (Music From And Inspired By The Original Motion Picture)_2004,electronic rock leftfield industrial poprock gothrock deathmetal blackmetal triphop hardrock downtempo grunge numetal,2004
+Live  Acoustic At The Palace_2016,rock acoustic alternativerock,2016
+Resident Evil Apocalypse (Music From And Inspired By The Original Motion Picture)_2004,electronic rock leftfield industrial poprock gothrock deathmetal blackmetal triphop hardrock downtempo grunge numetal,2004
 Broken Dreams_2005,rock pop alternativerock numetal,2005
 Saw II - Original Motion Picture Soundtrack_2005,electronic rock stagescreen soundtrack industrial downtempo numetal heavymetal,2005
-Transformers: Revenge Of The Fallen - The Album_2009,rock,2009
+Transformers Revenge Of The Fallen - The Album_2009,rock,2009
 Stone's Reach_2009,rock deathmetal,2009
 Of Breath And Bone_2012,rock melodicdeathmetal,2012
 Vessels_2016,rock melodicdeathmetal,2016
@@ -836,12 +836,12 @@ The Reason_2003,rock alternativerock poprock,2003
 Let It Out_2004,rock alternativerock,2004
 Every Man For Himself_2006,rock alternativerock poprock,2006
 If I Were You_2006,rock alternativerock softrock poprock,2006
-The Greatest Hits: Don't Touch My Moustache _2009,rock alternativerock,2009
+The Greatest Hits Don't Touch My Moustache _2009,rock alternativerock,2009
 For(N)ever_2009,rock alternativerock,2009
 Is This The Day?_2010,rock,2010
 Fight Or Flight_2012,rock pop alternativerock,2012
-The Scorpion King: Music From And Inspired By The Motion Picture_2002,rock stagescreen soundtrack alternativerock numetal heavymetal,2002
-Daredevil: The Album_2003,rock stagescreen alternativerock hardrock,2003
+The Scorpion King Music From And Inspired By The Motion Picture_2002,rock stagescreen soundtrack alternativerock numetal heavymetal,2002
+Daredevil The Album_2003,rock stagescreen alternativerock hardrock,2003
 (Music From And Inspired By) Spider-Man 2_2004,rock alternativerock hardrock poprock,2004
 Bravo Hits 47_2004,hiphop rock latin pop,2004
 Anti-Idol - Real Music For Real People_2005,rock pop alternativerock britpop poprock indierock,2005
@@ -866,7 +866,7 @@ Born Villain_2012,rock industrial,2012
 The Pale Emperor_2015,rock blues alternativerock industrial,2015
 Reanimation_2002,hiphop rock breakbeat hiphop numetal,2002
 Lost Highway_1996,electronic jazz rock stagescreen alternativerock leftfield industrial illbient contemporaryjazz soundtrack,1996
-The Matrix: Music From The Motion Picture_1999,electronic rock stagescreen breakbeat alternativerock techno industrial,1999
+The Matrix Music From The Motion Picture_1999,electronic rock stagescreen breakbeat alternativerock techno industrial,1999
 Lovegame_2009,electronic pop synthpop,2009
 The Matrix Reloaded (Music From And Inspired By The Motion Picture)_2003,electronic rock stagescreen alternativerock breakbeat modernclassical soundtrack,2003
 We're A Happy Family - A Tribute To Ramones_2003,rock alternativerock punk,2003
@@ -937,13 +937,13 @@ A Night At The Odeon_2015,rock glam classicrock hardrock poprock rockroll,2015
 The Singles Collection_1993,rock poprock glam,1993
 Let's Dance_1983,rock pop poprock dancepop,1983
 Diana (Princess Of Wales) Tribute_1997,electronic rock funksoul pop downtempo vocal softrock soul,1997
-Ladies & Gentlemen (The Best Of George Michael)_1998,electronic rock funksoul pop ballad poprock synthpop,1998
+Ladies  Gentlemen (The Best Of George Michael)_1998,electronic rock funksoul pop ballad poprock synthpop,1998
 Best Of Bowie_2002,electronic rock experimental,2002
 Nothing Has Changed (The Very Best Of Bowie)_2014,electronic rock pop experimental alternativerock,2014
 Concerts For The People Of Kampuchea_1981,rock reggae newwave powerpop ska classicrock,1981
 Plays The Queen Collection_1982,pop classical contemporary,1982
 Opus Dei_1987,electronic industrial,1987
-1. Outside (The Nathan Adler Diaries: A Hyper Cycle)_1995,electronic rock leftfield industrial triphop,1995
+1. Outside (The Nathan Adler Diaries A Hyper Cycle)_1995,electronic rock leftfield industrial triphop,1995
 Somewhere Far Beyond_1992,rock heavymetal,1992
 Shogunate Macabre_2014,rock folkmetal melodicdeathmetal,2014
 Tears Don't Fall_2006,rock hardcore heavymetal,2006
@@ -968,7 +968,7 @@ Breakthrough_2009,rock pop surf poprock,2009
 My Cassette Player_2010,pop vocal,2010
 Uncaged_2012,rock folkworldcountry,2012
 Hunter Hayes_2011,folkworldcountry,2011
-What's Inside: Songs From Waitress_2015,pop,2015
+What's Inside Songs From Waitress_2015,pop,2015
 Lovestrong._2011,rock pop ballad poprock vocal,2011
 50 First Dates_2004,stagescreen,2004
 Celebration_2009,electronic pop house synthpop ballad hiphop,2009
@@ -1054,7 +1054,7 @@ Punk Goes 90s Vol. 2_2014,electronic hiphop rock poppunk hardcore metalcore indu
 Shadows Of Past_1992,rock deathmetal,1992
 North From Here_1993,rock deathmetal,1993
 Amok_1995,rock heavymetal,1995
-Love & Death_1996,rock heavymetal,1996
+Love  Death_1996,rock heavymetal,1996
 Down_1996,rock hardrock heavymetal,1996
 Frozen_1998,rock heavymetal,1998
 Crimson_2000,rock gothrock heavymetal,2000
@@ -1097,7 +1097,7 @@ A New Day Yesterday_2000,rock blues bluesrock,2000
 Blues Deluxe_2003,rock bluesrock electricblues,2003
 A New Day Yesterday Live_2004,rock blues bluesrock,2004
 Had To Cry Today_2004,rock blues bluesrock classicrock,2004
-You & Me_2006,rock bluesrock hardrock,2006
+You  Me_2006,rock bluesrock hardrock,2006
 Sloe Gin_2007,rock bluesrock,2007
 Live From Nowhere In Particular_2008,rock bluesrock hardrock,2008
 The Ballad Of John Henry_2009,rock bluesrock hardrock,2009
@@ -1139,7 +1139,7 @@ Great Gypsy Soul_2012,rock blues bluesrock classicrock hardrock,2012
 Bag Of Bones_2012,rock hardrock,2012
 Re-Machined A Tribute To Deep Purple's Machine Head_2012,rock hardrock heavymetal,2012
 Concerto For Group And Orchestra_2012,rock classical symphonicrock,2012
-30:30 Hindsight_2014,rock softrock rockroll pubrock bluesrock,2014
+3030 Hindsight_2014,rock softrock rockroll pubrock bluesrock,2014
 Takes New York Live At The Iridium_2014,jazz fusion,2014
 Groove Is King_2015,jazz rock funksoul fusion,2015
 Soul Searchin'_2016,funksoul soul,2016
@@ -1186,7 +1186,7 @@ Voices From The FIFA World Cup_2006,jazz rock pop europop poprock ballad easylis
 Knuffelrock 7_1998,rock funksoul pop softrock europop ballad vocal rhythmblues,1998
 Stigmata (Music From The MGM Motion Picture Soundtrack)_1999,electronic rock stagescreen soundtrack industrial downtempo score,1999
 1999 Grammy Nominees_1999,hiphop rock pop rnbswing softrock poprock,1999
-She Will Have Her Way: The Songs Of Tim & Neil Finn_2005,rock acoustic softrock poprock,2005
+She Will Have Her Way The Songs Of Tim  Neil Finn_2005,rock acoustic softrock poprock,2005
 Oracular Spectacular_2008,electronic rock pop synthpop indierock,2008
 Congratulations_2010,electronic rock pop electro poprock,2010
 Embryonic_2009,rock psychedelicrock experimental,2009
@@ -1213,11 +1213,11 @@ Whispers I_2014,pop folkworldcountry,2014
 Heart's On Fire_2014,folkworldcountry,2014
 Scare Away The Dark_2014,pop,2014
 Whispers II_2015,rock folkworldcountry folk acoustic,2015
-Whispers I & II_2015,folkworldcountry folk,2015
+Whispers I  II_2015,folkworldcountry folk,2015
 Young As The Morning Old As The Sea_2016,pop folkworldcountry,2016
 Headthrash_2008,electronic breakbeat house electro breaks,2008
 O Vertigo!_2014,pop vocal,2014
-The Best Of Kate Miller-Heidke: Act One_2016,pop indiepop,2016
+The Best Of Kate Miller-Heidke Act One_2016,pop indiepop,2016
 The Flowerpot Sessions _2011,pop folkworldcountry vocal folk,2011
 Bravo Hits 81_2013,electronic hiphop rock reggae funksoul pop eurohouse house electrohouse techhouse synthpop poprap rnbswing indierock poprock dancehall neosoul europop reggaepop ballad eurodance progressivehouse trance dancepop,2013
 Sounds Of The 80s (Unique Covers Of Classic Hits)_2014,electronic rock pop acoustic,2014
@@ -1250,7 +1250,7 @@ Gettin' Over You_2010,electronic electro techhouse,2010
 Can't Fight This Feeling_2010,electronic electrohouse,2010
 Mirage_2010,electronic trance,2010
 Mirage - The Remixes_2011,electronic progressivehouse trance progressivetrance,2011
-TRON: Legacy Reconfigured_2011,electronic stagescreen soundtrack electro electrohouse progressivehouse techhouse,2011
+TRON Legacy Reconfigured_2011,electronic stagescreen soundtrack electro electrohouse progressivehouse techhouse,2011
 Girl Gone Wild_2012,electronic pop electro,2012
 Dconstructed_2014,electronic dubstep house techhouse electro breakbeat progressivehouse,2014
 Rude_2014,reggae pop reggaepop,2014
@@ -1299,9 +1299,9 @@ Justified_2002,pop,2002
 Show Me Your Soul_2003,hiphop stagescreen gangsta poprap,2003
 This Is Not A Test!_2003,hiphop bassmusic,2003
 Chicken -N- Beer_2003,hiphop bounce poprap,2003
-R & G (Rhythm & Gangsta): The Masterpiece_2004,hiphop poprap,2004
+R  G (Rhythm  Gangsta) The Masterpiece_2004,hiphop poprap,2004
 The Emancipation Of Mimi_2005,hiphop funksoul pop rnbswing,2005
-Duets: The Final Chapter_2005,hiphop thugrap poprap,2005
+Duets The Final Chapter_2005,hiphop thugrap poprap,2005
 Greatest Hits_2005,pop ballad vocal,2005
 In My Mind_2006,hiphop rnbswing poprap,2006
 20 Y.O._2006,hiphop funksoul rnbswing,2006
@@ -1335,13 +1335,13 @@ Rhythm And Blues_2012,rock blues rhythmblues,2012
 Acoustic Love Songs_2006,rock pop acoustic ballad,2006
 Live 8 Berlin_2005,electronic rock pop poprock classicrock punk house trance,2005
 Bravo Hits 50_2005,pop,2005
-"Live 8: One Day, One Concert, One World_2005",jazz rock pop poprock vocal newwave softrock europop britpop hardrock arenarock classicrock,2005
+"Live 8 One Day, One Concert, One World_2005",jazz rock pop poprock vocal newwave softrock europop britpop hardrock arenarock classicrock,2005
 NRJ Music Awards 2006_2006,electronic hiphop rock funksoul pop ballad chanson poprock poprap rnbswing,2006
 Festival 06_2006,rock britpop hardrock progrock punk,2006
 Broken Dreams II_2006,rock alternativerock punk indierock,2006
 Kuschelrock 21_2007,rock pop ballad softrock,2007
 2007 Grammy Nominees_2007,hiphop jazz rock funksoul blues pop,2007
-Revolutions In Sound: Warner Bros. Records The First Fifty Years_2008,hiphop jazz rock reggae latin funksoul blues nonmusic pop childrens folkworldcountry stagescreen,2008
+Revolutions In Sound Warner Bros. Records The First Fifty Years_2008,hiphop jazz rock reggae latin funksoul blues nonmusic pop childrens folkworldcountry stagescreen,2008
 They Sold A Million _2009,rock funksoul blues pop,2009
 L'Arc~en~Ciel Tribute_2012,rock pop,2012
 Zip Hot 100 1993 - 2013 All Time No1 Hits_2013,electronic rock reggae funksoul pop europop rhythmblues house vocal reggaepop poprock,2013
@@ -1381,7 +1381,7 @@ Untitled_2008,hiphop conscious,2008
 Theater Of The Mind_2008,hiphop,2008
 Lady Love_2009,hiphop funksoul pop rhythmblues,2009
 Fantasy Ride_2009,funksoul,2009
-Good Girl Gone Bad: The Remixes_2009,electronic house eurohouse breakbeat,2009
+Good Girl Gone Bad The Remixes_2009,electronic house eurohouse breakbeat,2009
 Last Train To Paris_2010,electronic hiphop funksoul pop poprap rnbswing dancepop,2010
 No Mercy_2010,hiphop,2010
 No Boys Allowed_2010,hiphop funksoul pop rnbswing,2010
@@ -1393,10 +1393,10 @@ Under The Mistletoe_2011,pop,2011
 Who You Are_2011,hiphop pop rnbswing,2011
 Finally Famous_2011,hiphop,2011
 Electroman_2011,electronic electro eurohouse techhouse,2011
-Pink Friday: Roman Reloaded - The Re-Up_2012,electronic hiphop pop poprap rnbswing electro,2012
+Pink Friday Roman Reloaded - The Re-Up_2012,electronic hiphop pop poprap rnbswing electro,2012
 Based On A T.R.U. Story_2012,hiphop,2012
 This Is How I Feel_2012,hiphop funksoul rnbswing,2012
-Pink Friday: Roman Reloaded_2012,electronic hiphop pop rnbswing poprap electro,2012
+Pink Friday Roman Reloaded_2012,electronic hiphop pop rnbswing poprap electro,2012
 Two Eleven_2012,hiphop pop rhythmblues soul,2012
 Jesus Piece_2012,hiphop gangsta thugrap,2012
 Strange Clouds_2012,hiphop pop jazzyhiphop thugrap,2012
@@ -1410,7 +1410,7 @@ Reincarnated_2013,reggae reggae dancehall,2013
 The Pinkprint_2014,electronic hiphop pop trap synthpop poprap,2014
 Booty_2014,hiphop pop,2014
 My Own Lane_2014,hiphop,2014
-Blood Moon: Year Of The Wolf_2014,hiphop gangsta thugrap trap,2014
+Blood Moon Year Of The Wolf_2014,hiphop gangsta thugrap trap,2014
 Globalization_2014,hiphop pop,2014
 Forget The World_2014,electronic pop house electro,2014
 A.K.A._2014,hiphop pop rnbswing,2014
@@ -1482,7 +1482,7 @@ Dirty Bass_2012,electronic hiphop pop electro poprap,2012
 A L'Infini _2013,electronic funksoul pop chanson,2013
 Rich Gang _2013,hiphop thugrap,2013
 Party Never Ends_2013,electronic latin pop eurohouse progressivehouse electro dancepop,2013
-Finest Selection: The Greatest Hits_2014,electronic pop europop synthpop ballad,2014
+Finest Selection The Greatest Hits_2014,electronic pop europop synthpop ballad,2014
 Sex And Love_2014,pop,2014
 No Fixed Address_2014,rock hardrock,2014
 I Kissed A Girl_2008,electronic rock pop house poprock,2008
@@ -1516,11 +1516,11 @@ Dedication 3_2008,hiphop,2008
 Rebirth_2010,hiphop rock gangsta numetal,2010
 The State Vs Radric Davis_2009,hiphop,2009
 BedRock_2009,hiphop,2009
-Sex Therapy: The Experience_2009,hiphop funksoul rnbswing,2009
+Sex Therapy The Experience_2009,hiphop funksoul rnbswing,2009
 Raymond V Raymond_2010,electronic hiphop funksoul pop rnbswing poprap,2010
 Bionic_2010,electronic hiphop pop synthpop,2010
 Thank Me Later_2010,hiphop,2010
-"Passion, Pain & Pleasure_2010",hiphop rnbswing,2010
+"Passion, Pain  Pleasure_2010",hiphop rnbswing,2010
 H.A.T.E.U._2009,hiphop pop rnbswing vocal electro,2009
 I Am Not A Human Being_2010,hiphop,2010
 My Beautiful Dark Twisted Fantasy_2010,hiphop,2010
@@ -1528,9 +1528,9 @@ DJ Got Us Fallin' In Love_2010,electronic hiphop pop rnbswing house electro,2010
 Versus_2010,electronic hiphop funksoul pop rnbswing poprap,2010
 Bravo Hits 75_2011,electronic hiphop rock pop alternativerock poprock house poprap vocal rnbswing softrock eurohouse trance hiphouse synthpop,2011
 Take Care_2011,hiphop,2011
-Turtleneck & Chain_2011,electronic hiphop nonmusic comedy synthpop poprap,2011
-Triple F Life: Friends Fans & Family_2012,hiphop thugrap gangsta,2012
-Careless World: Rise Of The Last King_2012,hiphop,2012
+Turtleneck  Chain_2011,electronic hiphop nonmusic comedy synthpop poprap,2011
+Triple F Life Friends Fans  Family_2012,hiphop thugrap gangsta,2012
+Careless World Rise Of The Last King_2012,hiphop,2012
 Girl On Fire_2012,jazz funksoul rnbswing,2012
 MDNA_2012,electronic pop dancepop electro house,2012
 Homage_2012,rock classical acoustic,2012
@@ -1563,7 +1563,7 @@ SremmLife_2015,hiphop trap,2015
 Beauty Behind The Madness_2015,hiphop funksoul contemporaryrb soul,2015
 Dangerous Woman_2016,hiphop pop,2016
 Major Key_2016,hiphop trap rnbswing,2016
-Pure & Simple_2016,folkworldcountry,2016
+Pure  Simple_2016,folkworldcountry,2016
 Best Of Everything _2010,hiphop,2010
 In My Head_2010,electronic hiphop pop rnbswing,2010
 Songs For Japan_2011,hiphop rock pop alternativerock chanson poprock indierock softrock raggahiphop hardrock classicrock,2011
@@ -1573,7 +1573,7 @@ The Best Of Eric Clapton_0,rock blues classicrock bluesrock,0
 After Midnight_1970,rock bluesrock,1970
 On Tour_1970,rock blues folkworldcountry,1970
 Eric Clapton_1970,rock bluesrock classicrock,1970
-Sonny Boy Williamson & The Yardbirds_1965,blues chicagoblues,1965
+Sonny Boy Williamson  The Yardbirds_1965,blues chicagoblues,1965
 Guitar Boogie_1971,rock blues bluesrock,1971
 The London Howlin' Wolf Sessions_1971,rock blues chicagoblues bluesrock,1971
 History Of Eric Clapton_1972,rock blues folkrock bluesrock classicrock modernelectricblues countryrock,1972
@@ -1653,7 +1653,7 @@ Play The Blues - Live From Jazz At Lincoln Center_2011,jazz blues dixieland,2011
 Old Sock_2013,rock bluesrock poprock,2013
 Forever Man_2015,rock blues acoustic classicrock bluesrock,2015
 I Still Do_2016,rock blues,2016
-Two Rooms: Celebrating The Songs Of Elton John & Bernie Taupin_1991,rock poprock,1991
+Two Rooms Celebrating The Songs Of Elton John  Bernie Taupin_1991,rock poprock,1991
 Disraeli Gears_1967,rock psychedelicrock bluesrock,1967
 Singin' The Blues_1957,blues modernelectricblues,1957
 The Blues_1958,blues,1958
@@ -1674,7 +1674,7 @@ His Best - The Electric B.B. King_1968,rock blues bluesrock,1968
 Lucille_1968,blues electricblues,1968
 Completely Well_1969,blues electricblues,1969
 The Thrill Is Gone_0,funksoul blues chicagoblues,0
-Live & Well_1969,blues,1969
+Live  Well_1969,blues,1969
 Indianola Mississippi Seeds_1970,blues chicagoblues,1970
 B.B. King Wails_1958,blues modernelectricblues,1958
 The Incredible Soul Of_1970,blues chicagoblues,1970
@@ -1740,12 +1740,12 @@ Still Got The Blues_1990,rock blues bluesrock,1990
 Blues Alive_1993,blues,1993
 Separate Ways_1992,rock blues bluesrock,1992
 After Hours_1992,rock blues bluesrock,1992
-Ballads & Blues 1982 - 1994_1994,rock bluesrock softrock,1994
+Ballads  Blues 1982 - 1994_1994,rock bluesrock softrock,1994
 Blues For Greeny_1995,rock bluesrock poprock,1995
 King Biscuit Flower Hour Presents Greg Lake In Concert_1995,rock classicrock progrock,1995
 Dark Days In Paradise_1997,rock poprock,1997
 Out In The Fields - The Very Best Of_1998,rock poprock,1998
-K2 (Tales Of Triumph & Tragedy)_1988,rock,1988
+K2 (Tales Of Triumph  Tragedy)_1988,rock,1988
 Back To The Blues_2001,rock blues bluesrock,2001
 Around The Next Dream_1994,rock bluesrock,1994
 Skid_1970,rock bluesrock,1970
@@ -1771,7 +1771,7 @@ The Beach Boys_1985,rock surf,1985
 Warriors (Of The Wasteland)_1986,rock pop poprock,1986
 Let It Be_1987,electronic pop synthpop,1987
 Vol. 3_1990,rock folkrock rockroll classicrock,1990
-Dedication: The Very Best Of Thin Lizzy_1991,rock hardrock,1991
+Dedication The Very Best Of Thin Lizzy_1991,rock hardrock,1991
 Muddy Water Blues - A Tribute To Muddy Waters_1993,rock bluesrock,1993
 Wild One - The Very Best Of Thin Lizzy_1996,rock hardrock classicrock,1996
 Urkraft_2000,rock vikingmetal,2000
@@ -1779,11 +1779,11 @@ Nuclear Fire_2001,rock heavymetal powermetal,2001
 Over The Hills And Far Away_2001,rock symphonicrock heavymetal,2001
 Bless The Child_2002,rock heavymetal symphonicrock,2002
 End Of Innocence_2002,rock,2002
-Highest Hopes: The Best Of Nightwish_2005,rock symphonicrock heavymetal,2005
+Highest Hopes The Best Of Nightwish_2005,rock symphonicrock heavymetal,2005
 End Of An Era_2006,rock heavymetal symphonicrock,2006
 The Traveling Wilburys Collection_2007,rock nonmusic pop poprock classicrock,2007
 Unia_2007,rock heavymetal symphonicrock,2007
-Live & Dangerous_0,rock hardrock heavymetal,0
+Live  Dangerous_0,rock hardrock heavymetal,0
 Frankie Say Greatest_2009,electronic rock pop hinrg house trance poprock synthpop ballad,2009
 Thin Lizzy_1971,rock hardrock,1971
 Shades Of A Blue Orphanage_1972,rock classicrock,1972
@@ -1803,7 +1803,7 @@ Gravel Pit_2000,hiphop electro,2000
 The W_2000,hiphop hardcorehiphop,2000
 Iron Flag_2001,hiphop thugrap gangsta,2001
 Pinky Ring_2001,hiphop,2001
-Legend Of The Wu-Tang: Wu-Tang Clan's Greatest Hits_2004,hiphop,2004
+Legend Of The Wu-Tang Wu-Tang Clan's Greatest Hits_2004,hiphop,2004
 8 Diagrams_2007,hiphop thugrap conscious hardcorehiphop,2007
 A Better Tomorrow_2014,hiphop conscious,2014
 Narra Mine_1991,electronic breakbeat hardcore techno,1991
@@ -1816,7 +1816,7 @@ Don't Be A Menace To South Central While Drinking Your Juice In The Hood - The S
 Black Eyed Boy_1997,electronic pop house downtempo,1997
 In Stereo_1998,hiphop thugrap conscious,1998
 Whitey Ford Sings The Blues_1998,hiphop rock blues pop folkworldcountry folkrock thugrap poprap acoustic,1998
-The Mixtape Volume III - 60 Minutes Of Funk: The Final Chapter_1998,hiphop,1998
+The Mixtape Volume III - 60 Minutes Of Funk The Final Chapter_1998,hiphop,1998
 The Piece Maker_2000,hiphop funksoul hardcorehiphop thugrap poprap,2000
 Loud Rocks_2000,hiphop rock numetal heavymetal,2000
 Digital Bullet_2001,hiphop,2001
@@ -1828,7 +1828,7 @@ Ride (Music From The Dimension Motion Picture)_1998,hiphop rnbswing gangsta,1998
 It's Dark And Hell Is Hot_1998,hiphop,1998
 Next Friday (Original Motion Picture Soundtrack)_1999,hiphop stagescreen rnbswing thugrap bassmusic soundtrack,1999
 The RZA Hits_1999,hiphop,1999
-Ghost Dog: The Way Of The Samurai - The Album_2000,hiphop nonmusic stagescreen soundtrack thugrap monolog gangsta conscious,2000
+Ghost Dog The Way Of The Samurai - The Album_2000,hiphop nonmusic stagescreen soundtrack thugrap monolog gangsta conscious,2000
 Halftime_1992,hiphop,1992
 Illmatic_1994,hiphop,1994
 It Ain't Hard To Tell_1994,hiphop,1994
@@ -1884,7 +1884,7 @@ Share My World_1997,hiphop rnbswing,1997
 Allure_1997,hiphop funksoul rnbswing soul,1997
 Likwidation_1997,hiphop,1997
 The Album_1997,hiphop,1997
-Tim's Bio:  From The Motion Picture - Life From Da Bassment_1998,hiphop,1998
+Tim's Bio  From The Motion Picture - Life From Da Bassment_1998,hiphop,1998
 Life In 1472_1998,hiphop poprap rnbswing,1998
 N.O.R.E._1998,hiphop,1998
 R._1998,hiphop rnbswing,1998
@@ -1903,7 +1903,7 @@ Quiet Storm_1999,hiphop,1999
 The Art Of Storytelling_1999,hiphop,1999
 My Name Is Joe_2000,pop rhythmblues,2000
 3LW_2000,hiphop funksoul rnbswing,2000
-Nas & Ill Will Records Presents Queensbridge The Album_2000,hiphop thugrap,2000
+Nas  Ill Will Records Presents Queensbridge The Album_2000,hiphop thugrap,2000
 The Reunion_2000,hiphop thugrap,2000
 Kiss Tha Game Goodbye_2001,hiphop thugrap,2001
 Crown Royal_2001,hiphop,2001
@@ -1938,7 +1938,7 @@ The In Sound From Way Out_1995,jazz funksoul instrumental fusion jazzfunk,1995
 Intergalactic_1998,electronic hiphop downtempo electro drumnbass,1998
 Hello Nasty_1998,hiphop,1998
 Body Movin'_1999,hiphop,1999
-Anthology:  The Sounds Of Science_1999,hiphop cutupdj poprap,1999
+Anthology  The Sounds Of Science_1999,hiphop cutupdj poprap,1999
 Ch-Check It Out_2004,hiphop,2004
 Triple Trouble_2004,hiphop,2004
 To The 5 Boroughs_2004,hiphop electro poprap conscious,2004
@@ -1969,12 +1969,12 @@ Guilty Conscience_1999,hiphop,1999
 The Up In Smoke Tour_2000,hiphop gangsta,2000
 Bad Intentions_2002,hiphop,2002
 Fast Lane_2000,funksoul neosoul,2000
-The Chronicle: The Best Of The Works_2001,hiphop gangsta,2001
+The Chronicle The Best Of The Works_2001,hiphop gangsta,2001
 Compton (A Soundtrack By Dr. Dre)_2015,hiphop trap thugrap bassmusic gangsta,2015
 Colors - Original Motion Picture Soundtrack_1988,hiphop funksoul stagescreen soundtrack thugrap rnbswing funk,1988
 No More Lies_1989,electronic hiphop rnbswing house hiphop,1989
 Afro Puffs_1994,hiphop stagescreen soundtrack,1994
-Natural Born Killers: A Soundtrack For An Oliver Stone Film_1994,electronic hiphop rock stagescreen alternativerock rockroll industrial soundtrack gangsta gothrock experimental artrock,1994
+Natural Born Killers A Soundtrack For An Oliver Stone Film_1994,electronic hiphop rock stagescreen alternativerock rockroll industrial soundtrack gangsta gothrock experimental artrock,1994
 All Eyez On Me_1996,hiphop thugrap gangsta,1996
 Austin Powers In Goldmember_2002,electronic rock stagescreen breaks poprock disco,2002
 Addictive_2002,hiphop rnbswing,2002
@@ -2003,3 +2003,343 @@ Poetic Justice (Music From The Motion Picture)_1993,hiphop jazz funksoul rnbswin
 Doggystyle_1993,hiphop gangsta,1993
 Gin And Juice_1994,hiphop gangsta,1994
 What's My Name?_1993,hiphop gangsta gfunk,1993
+Loser_1993,rock alternativerock,1993
+Mellow Gold_1994,rock folkrock alternativerock,1994
+One Foot In The Grave_1994,rock folkrock acoustic lofi,1994
+Odelay_1996,electronic hiphop funksoul pop electro downtempo hiphop disco afrobeat abstract,1996
+Mutations_1998,rock alternativerock indierock,1998
+Midnite Vultures_2000,electronic rock funksoul pop alternativerock poprock downtempo,2000
+Sexx Laws_1999,electronic breaks electro,1999
+Mixed Bizness_1999,electronic breaks electro,1999
+Sea Change_2002,rock alternativerock postrock,2002
+Alarm Call_1998,electronic experimental,1998
+Sexy Boy_1998,electronic downtempo synthpop,1998
+"My Neck,My Back (Lick It)_2001",hiphop,2001
+Hours..._1999,electronic rock alternativerock downtempo,1999
+Unchained_1996,rock countryrock,1996
+10 000 Hz Legend_2001,electronic leftfield downtempo experimental,2001
+Now I Got Worry_1996,rock bluesrock punk,1996
+Live Through This_1994,rock grunge,1994
+Moulin Rouge (Music From Baz Luhrmann's Film)_2001,electronic rock stagescreen soundtrack downtempo modernclassical poprock eurohouse,2001
+Kendrick Lamar EP_2009,hiphop,2009
+Overly Dedicated_2010,hiphop,2010
+Section 80_2011,hiphop,2011
+"good kid, m.A.A.d city_2012",hiphop,2012
+Let Us Move On_2012,pop,2012
+The Recipe_2012,hiphop,2012
+Swimming Pools (Drank)_2012,hiphop,2012
+Give It 2 U_2013,hiphop poprap,2013
+Poetic Justice_2013,hiphop,2013
+F**kin' Problems_2013,hiphop thugrap,2013
+It's On Again_2014,hiphop pop,2014
+I_2014,hiphop funksoul poprap funk,2014
+Never Catch Me_2014,electronic hiphop experimental,2014
+King Kunta_2015,hiphop,2015
+To Pimp A Butterfly_2015,hiphop conscious jazzyhiphop,2015
+Don't Wanna Know_2016,electronic pop tropicalhouse,2016
+The Greatest_2016,electronic hiphop pop indiepop poprap,2016
+Bad Blood_2015,pop,2015
+Untitled Unmastered._2016,hiphop,2016
+Our Version Of Events_2012,electronic funksoul pop breakbeat rhythmblues soul,2012
+Setbacks_2011,hiphop thugrap,2011
+Sleeping In Class_2011,hiphop,2011
+All 6's And 7's_2011,hiphop hardcorehiphop,2011
+The Wonder Years_2011,hiphop funksoul,2011
+Sailing Soul(s)_2011,funksoul contemporaryrb,2011
+The Hustlers Catalog_2011,hiphop,2011
+Habits  Contradictions_2012,hiphop,2012
+Dream Chasers 2_2012,hiphop thugrap trap,2012
+Macadelic_2012,hiphop,2012
+Detroit_2012,hiphop,2012
+Yellow Album_2012,hiphop,2012
+Control System_2012,hiphop,2012
+Alive  Living_2012,hiphop hardcorehiphop,2012
+Tha Blackprint_2012,hiphop gangsta,2012
+Quality|Street|Music_2012,hiphop,2012
+"The Block Brochure Welcome To The Soil 1, 2  3_2012",hiphop gangsta,2012
+Maybach Music Group Presents Self Made 2_2012,hiphop thugrap,2012
+Kaleidoscope Dream_2012,funksoul rnbswing,2012
+Kiss The Ring_2012,hiphop gangsta,2012
+Avalanche_2013,electronic funksoul soul synthpop,2013
+Born Sinner_2013,hiphop conscious,2013
+Prisoner Of Conscious_2013,hiphop conscious,2013
+Something Else_2013,hiphop hardcorehiphop horrorcore,2013
+Blurred Lines_2013,hiphop funksoul,2013
+Girl Who Got Away_2013,pop europop vocal,2013
+Greatest Hits_2013,electronic pop downtempo ballad vocal,2013
+Indicud_2013,hiphop,2013
+Where Does This Door Go_2013,funksoul,2013
+The Wack Album_2013,hiphop pop comedy novelty poprap,2013
+Tha Influence_2013,hiphop gangsta,2013
+My Name Is My Name_2013,hiphop,2013
+The Marshall Mathers LP 2_2013,hiphop hardcorehiphop,2013
+Long.Live.A$AP_2013,hiphop thugrap,2013
+Oxymoron_2014,hiphop,2014
+These Days..._2014,hiphop,2014
+You're Dead!_2014,electronic jazz futurejazz,2014
+Z_2014,electronic hiphop pop rnbswing downtempo,2014
+Bleep Selects 25 Years Of Warp_2014,electronic rock funksoul techno house idm experimental downtempo electro neosoul funk folkrock indierock dubstep abstract ambient glitch grime drone futurejazz,2014
+Night Visions_2012,rock pop alternativerock,2012
+The Amazing Spider-Man 2 (The Original Motion Picture Soundtrack)_2014,electronic hiphop rock pop stagescreen soundtrack electro indierock alternativerock rnbswing,2014
+90059_2015,hiphop,2015
+The Documentary 2_2015,hiphop gangsta,2015
+Covered (The Robert Glasper Trio Recorded Live At Capitol Studios)_2015,jazz,2015
+Free TC_2015,hiphop,2015
+Wondaland Presents The Eephus_2015,hiphop funksoul neosoul rnbswing,2015
+All Day_2015,hiphop,2015
+In Another Life_2015,hiphop funksoul soul,2015
+Bush_2015,hiphop,2015
+Blonde_2016,hiphop funksoul pop contemporaryrb,2016
+Starboy_2016,electronic hiphop funksoul pop contemporaryrb,2016
+Atrocity Exhibition_2016,electronic hiphop gangsta abstract,2016
+The Divine Feminine_2016,hiphop,2016
+The Documentary 2.5_2015,hiphop gangsta,2015
+Blank Face LP_2016,hiphop gangsta cloudrap thugrap,2016
+This Is Acting_2016,electronic hiphop reggae pop indiepop ballad electro dancepop,2016
+Lemonade_2016,electronic funksoul pop rhythmblues soul neosoul electro,2016
+In My Mind_2016,hiphop rnbswing,2016
+We Got It From Here... Thank You 4 Your Service_2016,hiphop conscious,2016
+Birds In The Trap Sing McKnight_2016,hiphop,2016
+Funkymix 175 (Special Anniversary Issue)_2013,electronic hiphop electrohouse poprap dancepop bassmusic djbattletool,2013
+Divergent Soundtrack_2014,electronic stagescreen soundtrack,2014
+2014 Grammy Nominees_2014,electronic hiphop pop folkworldcountry house,2014
+Motifs_2014,electronic hiphop electro hiphop,2014
+Ta Tha Moon And Bacc Kurupts Moon Rock Project_2014,hiphop gangsta,2014
+2016 Grammy Nominees_2016,hiphop rock pop folkworldcountry,2016
+Eminem MP3_2015,hiphop hardcorehiphop horrorcore conscious poprap thugrap,2015
+Gorillaz_2001,electronic hiphop rock leftfield latin triphop lofi poprap experimental,2001
+Tomorrow Comes Today _2000,electronic downtempo triphop,2000
+G Sides_2002,electronic hiphop rock downtempo britpop poprap triphop experimental,2002
+Clint Eastwood_2001,electronic triphop dub downtempo ukgarage,2001
+Rock The House_2001,electronic hiphop downtempo poprap triphop,2001
+Laika Come Home_2002,electronic dub triphop,2002
+Demon Days_2005,electronic hiphop rock leftfield triphop lofi poprap britpop downtempo,2005
+Dare_2005,electronic rock breaks electro lofi,2005
+Dirty Harry_2005,electronic hiphop poprap downtempo electro,2005
+Feel Good Inc_2005,electronic hiphop pop breaks poprap downtempo,2005
+Demon Days Live At The Manchester Opera House_2006,electronic hiphop leftfield triphop conscious poprap electro downtempo,2006
+D-Sides_2007,electronic hiphop rock leftfield britpop poprap triphop,2007
+Stylo_2010,electronic hiphop instrumental house electro,2010
+The Fall_2010,electronic hiphop rock alternativerock,2010
+Plastic Beach_2010,electronic hiphop rock leftfield electro triphop,2010
+The Singles Collection 2001-2011_2011,hiphop rock alternativerock lofi triphop experimental,2011
+Blade II The Soundtrack_2002,electronic hiphop stagescreen soundtrack techno,2002
+War Child Heroes_2009,rock pop poprock punk indierock alternativerock,2009
+Doggy Dogg World_1994,hiphop gangsta,1994
+Tha Doggfather_1996,hiphop gangsta,1996
+Wanted Dead Or Alive_1997,hiphop,1997
+"Da Game Is To Be Sold, Not To Be Told_1998",hiphop gangsta,1998
+Still A G Thang_1998,hiphop gangsta,1998
+Come Get Wit Me_1998,hiphop rnbswing,1998
+No Limit Top Dogg_1999,hiphop nonmusic gangsta spokenword,1999
+Lay Low_2001,hiphop gangsta,2001
+Snoop Dogg_2000,hiphop,2000
+Tha Last Meal_2000,hiphop gangsta,2000
+Dead Man Walkin_2000,hiphop gangsta,2000
+How Many Licks?_2000,hiphop,2000
+Death Row's Snoop Doggy Dogg Greatest Hits_2001,hiphop gangsta,2001
+Duces 'N Trayz - The Old Fashioned Way_2001,hiphop gangsta,2001
+"Welcome To Tha House, Vol. 1_2002",hiphop,2002
+Paid Tha Cost To Be Da Bo$$_2002,hiphop,2002
+The Streets_2002,hiphop thugrap,2002
+Holidae In_2003,hiphop,2003
+Drop It Like It's Hot_2004,hiphop gangsta,2004
+Let's Get Blown_2005,hiphop,2005
+Read Your Mind_2003,funksoul rhythmblues,2003
+The Best Of Snoop Dogg_2005,hiphop rnbswing gangsta,2005
+Ups And Downs_2005,hiphop poprap,2005
+Signs_2005,hiphop gangsta poprap,2005
+Say Somethin'_2006,electronic hiphop rnbswing,2006
+That's That_2006,hiphop poprap,2006
+Gangsta Walk_2006,electronic hiphop gangsta house,2006
+Get U Down_2006,hiphop,2006
+Tha Blue Carpet Treatment_2006,hiphop thugrap gangsta poprap,2006
+I Wanna Love You_2007,hiphop rnbswing poprap,2007
+The Traffic Jam_2007,reggae ragga,2007
+Buttons_2006,hiphop pop rnbswing,2006
+Sensual Seduction_2007,hiphop electro,2007
+Ego Trippin_2008,hiphop gangsta,2008
+Malice N Wonderland_2009,hiphop poprap,2009
+P.I.M.P._2003,hiphop gangsta,2003
+Beware Of My Crew_1995,hiphop,1995
+Gridlock'd - The Soundtrack_1996,hiphop stagescreen rnbswing soundtrack gangsta,1996
+Caught Up - Music From The Motion Picture_1998,hiphop rnbswing gangsta,1998
+The Recipe_1998,hiphop gangsta,1998
+Murder Was The Case (The Soundtrack)_1994,hiphop stagescreen soundtrack gangsta gfunk,1994
+Your Love Is A 187_1994,hiphop rnbswing,1994
+Above The Rim (The Soundtrack)_1994,hiphop rnbswing gangsta gfunk,1994
+Let's Play House_1995,hiphop gangsta,1995
+Dogg Food_1995,hiphop gangsta gfunk,1995
+Death Row - Greatest Hits_1996,hiphop funksoul gangsta rnbswing,1996
+How Do U Want It_1996,hiphop,1996
+You Bring Me Up_1997,hiphop rnbswing,1997
+Necessary Roughness_1997,hiphop gangsta,1997
+Release Some Tension_1997,hiphop rnbswing,1997
+Someone_1997,hiphop rnbswing,1997
+Men In Black - The Album_1997,hiphop stagescreen instrumental soundtrack poprap score,1997
+Gang Related - The Soundtrack_1997,hiphop rnbswing gangsta,1997
+"Retaliation, Revenge And Get Back_1998",hiphop gangsta,1998
+MP Da Last Don_1998,hiphop thugrap gangsta,1998
+Nobody Does It Better_1999,hiphop rnbswing,1999
+Greatest Hits_1998,hiphop gangsta,1998
+The Party Continues_1998,hiphop,1998
+Rhythm-Al-Ism_1998,hiphop,1998
+Heartbreaker_1999,electronic hiphop funksoul pop rnbswing house vocal soul,1999
+Ben_1972,funksoul pop stagescreen soul ballad soundtrack,1972
+Got To Be There_1972,funksoul rhythmblues soul,1972
+"Forever, Michael_1975",funksoul pop rhythmblues soul ballad,1975
+The Best Of Michael Jackson_1975,funksoul rhythmblues soul,1975
+Don't Stop 'Til You Get Enough_1979,electronic funksoul disco soul,1979
+Rock With You_1979,funksoul funk,1979
+Off The Wall_1979,funksoul pop disco soul ballad,1979
+The Girl Is Mine_1982,pop,1982
+Thriller_1983,rock pop disco,1983
+Wanna Be Startin' Somethin'_1983,electronic synthpop,1983
+Billie Jean_1983,electronic disco,1983
+Thriller_1982,funksoul pop disco,1982
+Beat It_1982,electronic synthpop,1982
+Say Say Say_1983,electronic synthpop disco,1983
+Farewell My Summer Love_1984,electronic funksoul disco,1984
+Another Part Of Me_1988,pop,1988
+Smooth Criminal (Extended Dance Mix)_1988,electronic disco,1988
+The Way You Make Me Feel_1987,electronic rock funksoul disco,1987
+Bad_1987,funksoul pop poprock ballad funk soul,1987
+I Just Can't Stop Loving You_1987,pop ballad vocal,1987
+Dirty Diana_1988,pop synthpop disco,1988
+Moonwalker_2005,electronic funksoul pop stagescreen musical synthpop disco rhythmblues,2005
+Dangerous_1991,electronic hiphop rock rnbswing poprap poprock disco,1991
+Black Or White_1991,pop,1991
+In The Closet_1992,electronic pop house,1992
+Remember The Time_1991,electronic funksoul house newjackswing,1991
+Jam_1992,electronic house techno synthpop,1992
+"HIStory - Past, Present And Future - Book I_1995",electronic hiphop rock rnbswing poprock hiphop disco,1995
+You Are Not Alone_1995,electronic hiphop rnbswing,1995
+They Don't Care About Us_1996,electronic pop rnbswing house vocal,1996
+Scream_1995,hiphop funksoul pop stagescreen rnbswing ballad,1995
+Stranger In Moscow_1996,pop,1996
+Blood On The Dance Floor_1997,electronic hiphop house,1997
+Blood On The Dance Floor - HIStory In The Mix_1997,electronic hiphop pop house downtempo rnbswing,1997
+You Rock My World_2001,electronic hiphop rock rnbswing softrock downtempo,2001
+Invincible_2001,pop,2001
+Number Ones_2003,electronic funksoul soul synthpop disco,2003
+One More Chance_2003,electronic funksoul pop house,2003
+The Essential Michael Jackson_0,electronic funksoul pop synthpop disco funk,0
+King Of Pop (German Edition)_2008,electronic funksoul pop rnbswing disco synthpop downtempo funk,2008
+This Is It_2010,electronic hiphop rock funksoul pop newjackswing poprock synthpop,2010
+Immortal_2011,electronic funksoul pop poprock synthpop ballad disco newjackswing,2011
+Xscape_2014,electronic funksoul pop synthpop funk soul,2014
+Through The Wire_2003,hiphop,2003
+Talk About Our Love_2004,hiphop rnbswing,2004
+Slow Jamz_2004,hiphop instrumental rnbswing,2004
+The College Dropout_2004,hiphop poprap conscious contemporaryrb,2004
+All Falls Down_2004,hiphop,2004
+Jesus Walks_2004,hiphop,2004
+Confessions Part II_2004,funksoul,2004
+Diamonds From Sierra Leone_2005,hiphop,2005
+Gold Digger_2005,hiphop,2005
+Late Registration_2005,hiphop,2005
+Touch The Sky_2006,hiphop poprap,2006
+Brand New_2005,hiphop,2005
+Extravaganza_2005,hiphop poprap,2005
+Heard 'Em Say_2005,hiphop pop poprap,2005
+Back Like That_2006,hiphop,2006
+Because Of You_2007,hiphop rnbswing,2007
+Good Life_2007,hiphop electro,2007
+American Boy_2007,hiphop pop,2007
+808s  Heartbreak_2008,electronic hiphop pop experimental,2008
+Love Lockdown_2008,electronic hiphop bassmusic,2008
+Pro Nails_2007,electronic hiphop house bassmusic poprap hiphouse electro ghetto,2007
+Lollipop_2008,hiphop poprap,2008
+In For The Kill_2009,electronic pop electro synthpop,2009
+E.T._2011,pop,2011
+Diamonds_2012,electronic pop vocal electro,2012
+Yeezus_2013,hiphop,2013
+Let's Get Married_2000,electronic hiphop house downtempo,2000
+Me Against The Music_2003,electronic hiphop pop house synthpop,2003
+If I Ain't Got You_2004,hiphop funksoul rnbswing,2004
+Chyna Doll_1999,hiphop,1999
+World Party_1999,hiphop hardcorehiphop,1999
+Lets Get Free_2000,hiphop conscious,2000
+The Dynasty Roc La Familia (2000- )_2000,hiphop,2000
+The Notorious KIM_2000,hiphop hardcorehiphop,2000
+Hip-Hop_1999,hiphop,1999
+"Girls, Girls, Girls_2001",hiphop,2001
+The Blueprint_2001,hiphop,2001
+Izzo (H.O.V.A)_2001,hiphop poprap,2001
+'03 Bonnie  Clyde_2002,hiphop rnbswing,2002
+Excuse Me Miss_2002,hiphop poprap,2002
+Dangerously In Love_2003,hiphop funksoul rnbswing soul ballad dancehall contemporaryrb,2003
+Stand Up_2003,hiphop,2003
+You Don't Know My Name_2003,hiphop funksoul rnbswing neosoul,2003
+Grand Champ_2003,hiphop thugrap,2003
+Street Dreams_2003,hiphop,2003
+La Bella Mafia_2003,hiphop,2003
+The Jump Off_2003,hiphop gangsta,2003
+The Black Album_2003,hiphop,2003
+Purple Haze_2004,hiphop gangsta,2004
+Kamikaze_2004,hiphop,2004
+Sunshine_2004,hiphop poprap,2004
+All Nite (Don't Stop)_2004,electronic funksoul pop brokenbeat dancepop,2004
+The Hard Way_2004,hiphop gangsta,2004
+I Try_2004,hiphop conscious,2004
+The New Danger_2004,hiphop rock funksoul bluesrock conscious neosoul,2004
+The Beautiful Struggle_2004,hiphop conscious,2004
+D12 World_2004,hiphop gangsta,2004
+The Corner_2005,hiphop conscious,2005
+Get Lifted_2004,hiphop funksoul rnbswing neosoul,2004
+Damita Jo_2004,hiphop pop rnbswing,2004
+Used To Love U_2004,hiphop funksoul rnbswing rhythmblues,2004
+Dreams_2005,hiphop,2005
+The Documentary_2005,hiphop gangsta thugrap,2005
+Lighters Up_2005,hiphop,2005
+Kingdom Come_2006,hiphop poprap,2006
+Doctor's Advocate_2006,hiphop thugrap poprap,2006
+Press Play_2006,hiphop pop rnbswing thugrap gangsta poprap,2006
+It's Okay_2006,hiphop gangsta,2006
+Lupe Fiasco's Food  Liquor_2006,hiphop,2006
+Once Again_2006,electronic funksoul contemporaryrb neosoul soul,2006
+Finding Forever_2007,hiphop conscious,2007
+Tha Carter III_2008,hiphop funksoul rnbswing screw poprap thugrap,2008
+Paper Trail_2008,hiphop,2008
+Man On The Moon The End Of Day_2009,electronic hiphop funksoul pop poprap soul,2009
+The Blueprint 3_2009,hiphop,2009
+The Hits Collection Volume One_2010,hiphop,2010
+4_2011,funksoul pop rhythmblues funk,2011
+The Man With The Iron Fists - Original Motion Picture Soundtrack_2012,hiphop rock funksoul blues stagescreen soundtrack,2012
+Music From Baz Luhrmann's Film The Great Gatsby_2013,electronic hiphop jazz nonmusic pop poprap synthpop poprock dialogue,2013
+Love In The Future _2013,funksoul pop contemporaryrb neosoul ballad,2013
+At.Long.Last.A$AP_2015,hiphop,2015
+Player's Ball_1993,hiphop,1993
+Southernplayalisticadillacmuzik_1994,hiphop,1994
+Elevators (Me  You)_1996,hiphop,1996
+ATLiens_1996,hiphop,1996
+Aquemini_1998,hiphop reggae gangsta soul conscious,1998
+Stankonia_2000,hiphop funksoul gangsta pfunk crunk conscious,2000
+"So Fresh, So Clean_2001",electronic hiphop triphop bigbeat,2001
+Ms Jackson_2000,hiphop,2000
+Again_2000,rock bluesrock acoustic,2000
+The Whole World_2002,hiphop poprap,2002
+Big Boi  Dre Present... Outkast_2001,hiphop pop poprap conscious,2001
+Land Of A Million Drums_2002,hiphop bassmusic,2002
+Hey Ya!_2003,electronic hiphop electro drumnbass,2003
+The Way You Move_2004,hiphop,2004
+Roses_2004,hiphop poprap,2004
+Idlewild_2006,hiphop funksoul,2006
+Soul Food Soundtrack_1997,hiphop funksoul pop stagescreen rnbswing poprap soul soundtrack,1997
+What About Your Friends_1992,hiphop rnbswing,1992
+The Boy Is Mine_1998,hiphop rnbswing,1998
+Still Standing_1998,hiphop hardcorehiphop conscious,1998
+On How Life Is_1999,hiphop rnbswing,1999
+Do Something_1999,hiphop rnbswing,1999
+Rap Life_1999,hiphop,1999
+Music From The Motion Picture Any Given Sunday_2000,electronic hiphop rock rnbswing gangsta numetal,2000
+Hey Baby_2001,electronic rock alternativerock electro,2001
+Hella Good_2002,electronic hiphop house,2002
+Rock Steady_2001,electronic rock poprock dub ska synthpop,2001
+Monster_2003,hiphop,2003
+dot...Featuring_2010,hiphop jazz rock blues folkrock countryrock poprock indierock bluesrock contemporaryjazz rnbswing swing pianoblues,2010
+New Jersey Drive Vol. 1 (Original Motion Picture Soundtrack)_1995,hiphop stagescreen soundtrack,1995
+1999 Grammy Rap Nominees_1999,hiphop poprap,1999
+Lenny_2001,rock poprock,2001
+Lara Croft Tomb Raider (Music From The Motion Picture)_2001,electronic hiphop rock stagescreen poprock house poprap bigbeat soundtrack breakbeat downtempo,2001
+More Music From 8 Mile_2002,hiphop gangsta,2002

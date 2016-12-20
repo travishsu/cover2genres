@@ -10,7 +10,7 @@ from keras.layers import Conv2D, AtrousConvolution2D, Flatten, Dense, MaxPooling
 from keras.layers.normalization import BatchNormalization
 from keras import backend as K
 
-data_dir = "data/set1/"
+data_dir = "data/set2/"
 data_type = {"Filename": str, "Genres": str, "Release Year": int}
 albums = pd.read_csv(data_dir + "albumlabel.csv", dtype=data_type, parse_dates=["Release Year"])
 
@@ -36,7 +36,7 @@ for album_labels in label_lst:
 
 # Read image
 X_origin = array([array(Image.open(data_dir+"resize/"+filename+".jpg")) for filename in albums.Filename.get_values()])
-X = zeros((X_origin.shape[0], 128, 128, 3))
+X = zeros((X_origin.shape[0], 32, 32, 3))
 for i in xrange(X_origin.shape[0]):
     X[i] = X_origin[i]
 
@@ -60,11 +60,27 @@ train_x, test_x, train_y, test_y = train_test_split(X, data_y, test_size=0.2)
 # Build NN Model (model to optimize)
 model = Sequential()
 model.add(ZeroPadding2D((1,1),input_shape=train_x.shape[1:], dim_ordering='tf'))
-model.add(Conv2D(32, 3, 3, border_mode='valid', activation='relu'))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='relu'))
 model.add(ZeroPadding2D((1,1)))
-model.add(Conv2D(32, 3, 3, border_mode='valid', activation='relu'))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='relu'))
 model.add(ZeroPadding2D((1,1)))
-model.add(Conv2D(32, 3, 3, border_mode='valid', activation='relu'))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='relu'))
+model.add(MaxPooling2D((2, 2), strides=(2,2)))
+
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='relu'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='relu'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='relu'))
+model.add(MaxPooling2D((2, 2), strides=(2,2)))
+
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='relu'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='relu'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='relu'))
 model.add(MaxPooling2D((2, 2), strides=(2,2)))
 
 model.add(Flatten())

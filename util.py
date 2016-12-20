@@ -18,7 +18,7 @@ def repairhead(s):
 def replace(s):
      new = ""
      for ss in s:
-         if ss != '/':
+         if ss != '/' and ss != ':' and ss != '&':
              new += ss
      return new
 
@@ -42,7 +42,7 @@ def getAlbumDetailByID(rid):
         for genre in a[1]:
             genres.append(genre.lower())
 
-    return {u'title'         : replace(result.title.encode('ascii', 'ignore')),
+    return {u'title'         : repairhead(replace(result.title.encode('ascii', 'ignore'))),
             u'coverurl'      : result.thumb,
             u'release_date'  : str(result.year),
             u'genres'        : [transgen(gen) for gen in genres]}
