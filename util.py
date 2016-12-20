@@ -15,6 +15,13 @@ def repairhead(s):
     if s[0]=='.':
         return 'dot'+s
 
+def replace(s):
+     new = ""
+     for ss in s:
+         if ss != '/':
+             new += ss
+     return new
+
 def getAlbumDetail(albumquery, qtype='release', idx = [0,0]):
     result = d.search(albumquery, type=qtype)[0].data
     a = [result['genre'], result['style']]
@@ -22,7 +29,7 @@ def getAlbumDetail(albumquery, qtype='release', idx = [0,0]):
     for genre in a[1]:
         genres.append(genre.lower())
 
-    return {u'title'         : result['title'].encode('ascii', 'ignore'),
+    return {u'title'         : replace(result['title'].encode('ascii', 'ignore')),
             u'coverurl'      : result['thumb'],
             u'release_date'  : result['year'],
             u'genres'        : [transgen(gen) for gen in genres]}
@@ -35,7 +42,7 @@ def getAlbumDetailByID(rid):
         for genre in a[1]:
             genres.append(genre.lower())
 
-    return {u'title'         : result.title,
+    return {u'title'         : replace(result.title.encode('ascii', 'ignore')),
             u'coverurl'      : result.thumb,
             u'release_date'  : str(result.year),
             u'genres'        : [transgen(gen) for gen in genres]}

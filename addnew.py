@@ -37,17 +37,17 @@ def addAlbumByID(rid, datadir):
         print('no image provided')
         return None
 
+    u = urllib2.urlopen(detail['coverurl'])
+    f = open(datadir+"img/"+filename+'.jpg', 'wb')
+    f.write(u.read())
+    f.close()
+
     newdata = pd.Series({"Filename": filename, "Genres": ' '.join(detail['genres']), "Release Year": detail['release_date']})
     if filename not in albums['Filename'].get_values():
         albums = albums.append(newdata, ignore_index=True)
         albums.to_csv(datadir+'albumlabel.csv', index=False)
     else:
         return ' |--- [Already exists]'
-
-    u = urllib2.urlopen(detail['coverurl'])
-    f = open(datadir+"img/"+filename+'.jpg', 'wb')
-    f.write(u.read())
-    f.close()
 
 def addAlbumByLabelID(label_id, setpath, limit=100, n_version=30):
         l = d.label(label_id)
