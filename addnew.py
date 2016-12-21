@@ -1,6 +1,6 @@
 import urllib2
 import pandas as pd
-from util import getAlbumDetail, getAlbumDetailByID
+from util import getAlbumDetail, getAlbumDetailByID, replace, repairhead
 import discogs_client
 
 d = discogs_client.Client('ExampleApplication/0.1', user_token="tPgLfOQMObTxlKYXoSKpZkbVODRLZFqSwPzngIrb")
@@ -26,13 +26,18 @@ def addAlbum(query, datadir, idx=[0,0]):
     else:
         print('album already exists')
 
-def addAlbumByID(rid, datadir):
+def addAlbumByID(rid, datadir, title=None):
     if rid==None:
         return None
     albums = pd.read_csv(datadir+"albumlabel.csv", dtype=data_type, parse_dates=["Release Year"])
     detail = getAlbumDetailByID(rid)
 
-    filename = detail['title']+'_'+detail['release_date']
+    if title != None:
+        filename = repairhead(replace(title)) +'_' + detail['release_date']
+    elif detail['title'] == None:
+        filename = detail['title']+'_'+detail['release_date']
+    else:
+        return 'Title is None'
     if detail['coverurl'] == u'':
         print('no image provided')
         return None
@@ -49,19 +54,27 @@ def addAlbumByID(rid, datadir):
     else:
         return ' |--- [Already exists]'
 
-def addAlbumByLabelID(label_id, setpath, limit=100, n_version=30):
+def addAlbumByLabelID(label_id, setpath, limit=100, n_version=100):
         l = d.label(label_id)
+        #lst = [k for k in l.releases if type(k) == discogs_client.models.Master]
         lst = l.releases
-
+        count = 0
         for i in xrange(limit):
             try:
-                addAlbumByFilterMaster(lst[i], setpath, n_version)
-                print("Progress: {}/{} success".format(i+1, limit))
+                text = addAlbumByFilterMaster(lst[i].master, setpath, n_version)
+                print "[OK  ] Progress: {}/{}, {}".format(i+1, limit, lst[i].title.encode('ascii', 'ignore')),
+                print(text)
+                if 'Success' in text:
+                    count += 1
+            except KeyboardInterrupt:
+                break
             except:
-                print("Progress: {}/{} error".format(i+1, limit))
+                print("[Fail] Progress: {}/{}".format(i+1, limit))
+        print("Summary: {} data added".format(count))
 
 def addAlbumByArtistID(artist_id, setpath, limit=100, n_version=100):
         l = d.artist(artist_id)
+        #lst = [k for k in l.releases if type(k) == discogs_client.models.Master]
         lst = l.releases
         count = 0
         for i in xrange(limit):
@@ -69,7 +82,10 @@ def addAlbumByArtistID(artist_id, setpath, limit=100, n_version=100):
                 text = addAlbumByFilterMaster(lst[i], setpath, n_version)
                 print "[OK  ] Progress: {}/{}, {}".format(i+1, limit, lst[i].title.encode('ascii', 'ignore')),
                 print(text)
-                count += 1
+                if 'Success' in text:
+                    count += 1
+            except KeyboardInterrupt:
+                break
             except:
                 print("[Fail] Progress: {}/{}".format(i+1, limit))
         print("Summary: {} data added".format(count))
@@ -83,7 +99,7 @@ def addAlbumByFilterMaster(release, setpath, n_version):
         text = ' |--- [Number of versions too little: {}]'.format(n)
         return text
     rid = release.main_release.id
-    text = addAlbumByID(rid, setpath)
+    text = addAlbumByID(rid, setpath, title=release.title)
     if text==None:
         text = ' |--- [Success]'
     return text
