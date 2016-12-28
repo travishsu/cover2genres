@@ -60,34 +60,64 @@ train_x, test_x, train_y, test_y = train_test_split(X, data_y, test_size=0.2)
 # Build NN Model (model to optimize)
 model = Sequential()
 model.add(ZeroPadding2D((1,1),input_shape=train_x.shape[1:], dim_ordering='tf'))
-model.add(Conv2D(16, 3, 3, border_mode='valid', activation='relu'))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='tanh'))
 model.add(ZeroPadding2D((1,1)))
-model.add(Conv2D(16, 3, 3, border_mode='valid', activation='relu'))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='tanh'))
 model.add(ZeroPadding2D((1,1)))
-model.add(Conv2D(16, 3, 3, border_mode='valid', activation='relu'))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='tanh'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='tanh'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='tanh'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='tanh'))
 model.add(MaxPooling2D((2, 2), strides=(2,2)))
-
-model.add(ZeroPadding2D((1,1)))
-model.add(Conv2D(16, 3, 3, border_mode='valid', activation='relu'))
-model.add(ZeroPadding2D((1,1)))
-model.add(Conv2D(16, 3, 3, border_mode='valid', activation='relu'))
-model.add(ZeroPadding2D((1,1)))
-model.add(Conv2D(16, 3, 3, border_mode='valid', activation='relu'))
-model.add(MaxPooling2D((2, 2), strides=(2,2)))
-
-model.add(ZeroPadding2D((1,1)))
-model.add(Conv2D(16, 3, 3, border_mode='valid', activation='relu'))
-model.add(ZeroPadding2D((1,1)))
-model.add(Conv2D(16, 3, 3, border_mode='valid', activation='relu'))
-model.add(ZeroPadding2D((1,1)))
-model.add(Conv2D(16, 3, 3, border_mode='valid', activation='relu'))
-model.add(MaxPooling2D((2, 2), strides=(2,2)))
-
-model.add(Flatten())
+model.add(Dropout(0.25))
 model.add(BatchNormalization())
-model.add(Dense(1024, activation='relu'))
+
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='tanh'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='tanh'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='tanh'))
+model.add(MaxPooling2D((2, 2), strides=(2,2)))
+model.add(Dropout(0.25))
+
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='tanh'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='tanh'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='tanh'))
+model.add(MaxPooling2D((2, 2), strides=(2,2)))
+model.add(Dropout(0.25))
+model.add(BatchNormalization())
+
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='tanh'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='tanh'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='tanh'))
+model.add(MaxPooling2D((2, 2), strides=(2,2)))
+model.add(Dropout(0.25))
+
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='tanh'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='tanh'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(16, 3, 3, border_mode='valid', activation='tanh'))
+model.add(MaxPooling2D((2, 2), strides=(2,2)))
+model.add(Dropout(0.25))
+model.add(BatchNormalization())
+
+model.add(Flatten(input_shape=model.output_shape[1:]))
+model.add(BatchNormalization())
+model.add(Dense(1024, activation='tanh'))
 model.add(Dropout(0.5))
-model.add(Dense(1024, activation='relu'))
+model.add(Dense(1024, activation='tanh'))
 model.add(Dropout(0.5))
 model.add(Dense(train_y.shape[1], activation='sigmoid'))
 
@@ -101,8 +131,8 @@ model.compile(loss='categorical_crossentropy',
 
 model.fit(train_x, train_y,
           validation_data = (test_x, test_y),
-          batch_size=5,
-          nb_epoch=10,
+          batch_size=32,
+          nb_epoch=100,
           shuffle=True,
           class_weight='auto')
 

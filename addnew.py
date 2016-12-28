@@ -33,7 +33,7 @@ def addAlbumByID(rid, datadir, title=None):
     detail = getAlbumDetailByID(rid)
 
     if title != None:
-        filename = repairhead(replace(title)) +'_' + detail['release_date']
+        filename = replace(title.encode('ascii', 'ignore')) +'_' + detail['release_date']
     elif detail['title'] == None:
         filename = detail['title']+'_'+detail['release_date']
     else:

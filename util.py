@@ -14,6 +14,8 @@ def transgen(s):
 def repairhead(s):
     if s[0]=='.':
         return 'dot'+s
+    else:
+        return s
 
 def replace(s):
      new = ""
@@ -36,12 +38,16 @@ def getAlbumDetail(albumquery, qtype='release', idx = [0,0]):
 
 def getAlbumDetailByID(rid):
     result = d.release(rid)
+    #====================================#
     a = [result.genres, result.styles]
     genres = [gen.lower() for gen in a[0]]
     if a[1]!=None:
         for genre in a[1]:
             genres.append(genre.lower())
-
+    #====================================#
+    #genres = [s.lower() for s in result.genres]
+    #====================================#
+    
     return {u'title'         : repairhead(replace(result.title.encode('ascii', 'ignore'))),
             u'coverurl'      : result.thumb,
             u'release_date'  : str(result.year),
