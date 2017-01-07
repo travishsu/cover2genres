@@ -18,7 +18,7 @@ topN         = 12
 excludeOther = True
 
 data_type = {"Filename": str, "Genres": str, "Release Year": int}
-albums = pd.read_csv(data_dir + "albumlabel.csv", dtype=data_type, parse_dates=["Release Year"])
+albums = pd.read_csv(data_dir + "albumlabel_aug.csv", dtype=data_type, parse_dates=["Release Year"])
 
 # Label to index number
 token = Tokenizer()
@@ -41,7 +41,7 @@ for album_labels in label_lst:
     i += 1
 
 # Read image
-X_origin = array([array(Image.open(data_dir + "resize/" + filename + ".jpg")) for filename in albums.Filename.get_values()])
+X_origin = array([array(Image.open(data_dir + "augmented/" + filename + ".jpg")) for filename in albums.Filename.get_values()])
 X = zeros((X_origin.shape[0], 32, 32, 3))
 for i in xrange(X_origin.shape[0]):
     X[i] = X_origin[i]
