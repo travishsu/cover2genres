@@ -14,8 +14,9 @@ from keras.layers.normalization import BatchNormalization
 from keras import backend as K
 
 data_dir     = "data/set2/"
+pixelsize    = 32
 topN         = 12
-excludeOther = True
+excludeOther = False
 
 data_type = {"Filename": str, "Genres": str, "Release Year": int}
 albums = pd.read_csv(data_dir + "albumlabel_aug.csv", dtype=data_type, parse_dates=["Release Year"])
@@ -42,7 +43,7 @@ for album_labels in label_lst:
 
 # Read image
 X_origin = array([array(Image.open(data_dir + "augmented/" + filename + ".jpg")) for filename in albums.Filename.get_values()])
-X = zeros((X_origin.shape[0], 32, 32, 3))
+X = zeros((X_origin.shape[0], pixelsize, pixelsize, 3))
 for i in xrange(X_origin.shape[0]):
     X[i] = X_origin[i]
 
@@ -72,9 +73,17 @@ train_x, test_x, train_y, test_y = train_test_split(X, data_y, test_size = 0.2)
 # Build NN Model (model to optimize)
 model = Sequential()
 model.add(ZeroPadding2D((1,1),input_shape=train_x.shape[1:], dim_ordering='tf'))
-model.add(Conv2D(32, 3, 3, border_mode='valid', activation='relu'))
+model.add(Conv2D(64, 3, 3, border_mode='valid', activation='relu'))
 model.add(ZeroPadding2D((1,1)))
-model.add(Conv2D(32, 3, 3, border_mode='valid', activation='relu'))
+model.add(Conv2D(64, 3, 3, border_mode='valid', activation='relu'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(64, 3, 3, border_mode='valid', activation='relu'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(64, 3, 3, border_mode='valid', activation='relu'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(64, 3, 3, border_mode='valid', activation='relu'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(64, 3, 3, border_mode='valid', activation='relu'))
 model.add(MaxPooling2D((2, 2), strides=(2,2)))
 
 model.add(Conv2D(64, 3, 3, border_mode='valid', activation='relu'))
@@ -82,32 +91,44 @@ model.add(ZeroPadding2D((1,1)))
 model.add(Conv2D(64, 3, 3, border_mode='valid', activation='relu'))
 model.add(ZeroPadding2D((1,1)))
 model.add(Conv2D(64, 3, 3, border_mode='valid', activation='relu'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(64, 3, 3, border_mode='valid', activation='relu'))
+model.add(Conv2D(64, 3, 3, border_mode='valid', activation='relu'))
 model.add(MaxPooling2D((2, 2), strides=(2,2)))
-model.add(Dropout(0.25))
+model.add(Dropout(0.1))
 model.add(BatchNormalization())
 
 model.add(ZeroPadding2D((1,1)))
 model.add(Conv2D(86, 3, 3, border_mode='valid', activation='relu'))
 model.add(ZeroPadding2D((1,1)))
 model.add(Conv2D(86, 3, 3, border_mode='valid', activation='relu'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(86, 3, 3, border_mode='valid', activation='relu'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(86, 3, 3, border_mode='valid', activation='relu'))
 model.add(MaxPooling2D((2, 2), strides=(2,2)))
-model.add(Dropout(0.25))
+model.add(Dropout(0.1))
 model.add(BatchNormalization())
 
 model.add(ZeroPadding2D((1,1)))
 model.add(Conv2D(128, 3, 3, border_mode='valid', activation='relu'))
 model.add(ZeroPadding2D((1,1)))
 model.add(Conv2D(128, 3, 3, border_mode='valid', activation='relu'))
+model.add(ZeroPadding2D((1,1)))
+model.add(Conv2D(128, 3, 3, border_mode='valid', activation='relu'))
 model.add(MaxPooling2D((2, 2), strides=(2,2)))
-model.add(Dropout(0.25))
+model.add(Dropout(0.1))
 model.add(BatchNormalization())
 
 model.add(Flatten(input_shape=model.output_shape[1:]))
 model.add(BatchNormalization())
-model.add(Dense(4096, activation='tanh'))
-model.add(Dropout(0.5))
-model.add(Dense(4096, activation='tanh'))
-model.add(Dropout(0.5))
+model.add(Dense(4096, activation='sigmoid'))
+model.add(Dropout(0.1))
+model.add(Dense(4096, activation='sigmoid'))
+model.add(Dropout(0.1))
+model.add(Dense(4096, activation='sigmoid'))
+model.add(Dropout(0.1))
+
 model.add(Dense(train_y.shape[1], activation='sigmoid'))
 
 #def f(x):
@@ -121,10 +142,9 @@ model.compile(loss='binary_crossentropy',
 
 model.fit(train_x, train_y,
           validation_data = (test_x, test_y),
-          batch_size=256,
-          nb_epoch=300,
-          shuffle=True,
-          class_weight='auto')
+          batch_size=64,
+          nb_epoch=20,
+          shuffle=True)
 
 
 def greater50percent(y, best_threshold):
